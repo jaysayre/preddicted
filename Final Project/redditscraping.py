@@ -1,21 +1,11 @@
-# -*- coding: utf-8 -*-
-# <nbformat>3.0</nbformat>
-
-# <codecell>
-
 import praw
 import pandas as pd
-
-# <codecell>
 
 user_agent = ("Project for class 0.01 by Jay Say"
               "https://github.com/jaysayre/") # Reddit API encourages having a descriptive name, preferably with /u/..
 r = praw.Reddit(user_agent=user_agent)
 api_call_limit = 10 # Reddit API limits to 1000
 subreddit = r.get_subreddit('explainlikeimfive', fetch=True)
-
-# <codecell>
-
 
 sub = subreddit.get_top_from_all(limit=api_call_limit)
 
@@ -43,11 +33,7 @@ for post in sub:
         #except AttributeError:
         #    athrkarma.append(0)
 
-# <codecell>
-
 eli5top = pd.DataFrame({'id': ids, 'post_title': title, 'upvotes': upvts, 'downvts':downvts, 'comments':comments, 'score':score, 'authors':authors})#, 'karma':athrkarma})#
-
-# <codecell>
 
 def get_comments(postid):
     submission = r.get_submission(submission_id=postid)
@@ -67,8 +53,6 @@ def get_comments(postid):
         except AttributeError: 
             pass
 
-# <codecell>
-
 topids = list(eli5top['id'])
 
 #for i in range(len(topids)):
@@ -76,7 +60,4 @@ topids = list(eli5top['id'])
     
 get_comments(topids[2])
     
-
-# <codecell>
-
 
