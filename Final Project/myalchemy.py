@@ -11,7 +11,7 @@ class MyAlchemy:
     Class for calling the alchemy API
     '''
     def __init__(self, apikey):
-        self.params = {'apikey' : apikey, 'outputMode' : 'json', 			       'showSourceText' : 0}
+        self.params = {'apikey' : apikey, 'outputMode' : 'json', 'showSourceText' : 0}
     
     def get_json(self, url):
 	jsonrsp = urllib2.urlopen(url)
@@ -19,35 +19,32 @@ class MyAlchemy:
 	return data
 
     def text_concepts(self):
+        returnlist = []
         for item in self.data['concepts']: 
-            print item['dbpedia']
-            print item['relevance']
-            print item['text']
+            #This is a website with information for the text - not in our model
+            #print item['dbpedia']
+            returnlist.append((item['relevance'], item['text']))
+        return returnlist
             
     def text_category(self):
-        print self.data['category']
-        print self.data['language']
-        print self.data['score']
-        print self.data['status']
+        return self.data['category'], self.data['language'], self.data['score'], self.data['status']
         
     def text_keywords(self):
+        returnlist = []
         for item in self.data['keywords']: 
-            print item['relevance']
-            print item['text']
+            returnlist.append((item['relevance'], item['text']))
+        return returnlist
             
     def text_sentiment(self):
-        print self.data['docSentiment']['mixed']
-        print self.data['docSentiment']['score']
-        print self.data['docSentiment']['type']
+        return self.data['docSentiment']['mixed'], self.data['docSentiment']['score'], self.data['docSentiment']['type']
     
     def text_entities(self):
+        returnlist = []
         for item in self.data['entities']:
-            print item['count']
-            print item['relevance']
-            print item['text']
-            print item['type']
+            returnlist.append((item['count'], item['relevance'], item['text'],  item['type']))
+        return returnlist
             
-    def look_at(self, choice):
+    def __look_at(self, choice):
         if 'keywords' in choice:
             return "TextGetRankedKeywords", 1
         elif 'category' in choice:
@@ -66,7 +63,7 @@ class MyAlchemy:
 	global alchemybase        
 	self.params['text'] = comment
         form = urllib.urlencode(self.params)
-        method, num = self.look_at(whichtoget)
+        method, num = self.__look_at(whichtoget)
         if method != None:
             keywordsurl = "http://access.alchemyapi.com/calls/text/" + method + "?" + form
         else:
@@ -80,14 +77,14 @@ class MyAlchemy:
         self.data = self.get_json(keywordsurl)
         
         if num == 1:
-            self.text_keywords()
+            return self.text_keywords()
         elif num == 2:
-            self.text_category()
+            return self.text_category()
         elif num == 3:
-            self.text_concepts()
+            return self.text_concepts()
         elif num == 4:
-            self.text_sentiment()
+            return self.text_sentiment()
         else:
-            self.text_entities()
+            return self.text_entities()
             
 
