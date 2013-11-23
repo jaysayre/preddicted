@@ -35,7 +35,8 @@ class MyAlchemy:
         return returnlist
             
     def text_sentiment(self):
-        return self.data['docSentiment']['mixed'], self.data['docSentiment']['score'], self.data['docSentiment']['type']
+        return self.data['docSentiment']['score'], self.data['docSentiment']['type']
+	#self.data['docSentiment']#['mixed']
     
     def text_entities(self):
         returnlist = []
