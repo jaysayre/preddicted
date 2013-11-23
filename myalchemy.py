@@ -5,7 +5,6 @@ import urllib
 import urllib2
 import json
 
-
 class MyAlchemy:
     '''
     Class for calling the alchemy API
