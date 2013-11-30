@@ -1,5 +1,7 @@
 '''
-A class written by Jay Sayre for calling the Alchemy API
+Jay Sayre - Harvard College - CS109 - 11/17/13
+
+A class written for calling the Alchemy API
 '''
 import urllib
 import urllib2
