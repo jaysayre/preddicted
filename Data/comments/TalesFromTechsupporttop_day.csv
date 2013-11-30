@@ -1,415 +1,94 @@
-author,comment,distinguished,downs,id,post,subreddit,type,ups
-ohmywordgiraffe,"Blimey,  hope you find a much better job really soon!  Glad for one decent manager anyway. ",null,0,cdpgy0t,1ro6wk,TalesFromTechsupport,top_day,3
-vincentkant,"I really dont understand how dumb developers are somethimes. I'm a developer, but I'm fary enough tech savy to help other coworkers supporting communications and other things...",null,0,cdpmerc,1ro6wk,TalesFromTechsupport,top_day,2
-saintNIC,woaaa,null,5,cdpe0ca,1ro6wk,TalesFromTechsupport,top_day,1
-ohmywordgiraffe,"Blimey,  hope you find a much better job really soon!  Glad for one decent manager anyway. ",null,0,cdpgy0t,1ro6wk,TalesFromTechsupport,top_day,3
-vincentkant,"I really dont understand how dumb developers are somethimes. I'm a developer, but I'm fary enough tech savy to help other coworkers supporting communications and other things...",null,0,cdpmerc,1ro6wk,TalesFromTechsupport,top_day,2
-saintNIC,woaaa,null,5,cdpe0ca,1ro6wk,TalesFromTechsupport,top_day,1
-cman_yall,"It would probably be worth your time to make a backup anyway when they say they have one already, and then later on charge them ridiculous amounts for it if they turn out to need it... but that would be ethically questionable...",null,6,cdp7z11,1ro8ur,TalesFromTechsupport,top_day,37
-VeteranKamikaze,"&gt; ...we have proof that a backup was not necessary. (**Signed worksheet stating this**).
-
-Cannot emphasize enough how vital this is for anyone working in IT, even in a corporate environment make employees sign off that they don't need any files before wiping their systems. CYA.",null,2,cdpgbp1,1ro8ur,TalesFromTechsupport,top_day,17
-Koras,"I had a friend at uni who harped on constantly about needing backups despite the fact I told him repeatedly that I keep a portable drive and a dropbox account that I use purely for backing what little important stuff I have... his computer died, he lost everything.
-
-Turns out the entire time he was ""backing up"" files from his computer's only hard drive on his computer's only hard drive. So y'know, if his computer's hard drive died he'd always have a copy of all of his files on his- oh.",null,0,cdphh3a,1ro8ur,TalesFromTechsupport,top_day,13
-hicow,"I'd back it up anyway. Even if I know a machine is backed up, I pull a fresh backup before I wipe a disk. For certain procedures I do at work, I back up data two different ways - one is easier to restore but harder to get to, the other is a pain to restore but close at hand.
-
-In this sort of situation, I wouldn't charge to do the backup, obviously, but it'd be at least double rate to restore said backup. And very clearly laid out as to why they're paying double to get said data back.",null,0,cdpbkfa,1ro8ur,TalesFromTechsupport,top_day,11
-JNoel1234,"I've run into this problem several times and have since decided to always make a disk image backup whether the customer thinks he needs it or not. I use a program called Drive Snapshot. The program doesn't require installation and it has good compression. After I reinstall Windows, I put the disk image file in a folder on the C:\ drive called ""Backup"". I tell the customer that all of their old stuff is sealed in this file and that if they realize later that they need something I can get it back for them. I don't charge for the disk image but I do charge for the data retrieval from the image. Doing this has saved me so many headaches. ",null,0,cdpgtg6,1ro8ur,TalesFromTechsupport,top_day,3
-bikerwalla,"""Well of course I lied! I didn't want you to think I was too stupid to back it up!""",null,0,cdpjj1t,1ro8ur,TalesFromTechsupport,top_day,2
-humpax,"&gt;I keep all my data on D: so its not lost if my C: crashes, i dont need no stupid cloud-whatyacallit backup!
-
-^^Computer ^^only ^^had ^^1 ^^Harddrive..",null,0,cdpngyc,1ro8ur,TalesFromTechsupport,top_day,1
-cman_yall,"It would probably be worth your time to make a backup anyway when they say they have one already, and then later on charge them ridiculous amounts for it if they turn out to need it... but that would be ethically questionable...",null,6,cdp7z11,1ro8ur,TalesFromTechsupport,top_day,37
-VeteranKamikaze,"&gt; ...we have proof that a backup was not necessary. (**Signed worksheet stating this**).
-
-Cannot emphasize enough how vital this is for anyone working in IT, even in a corporate environment make employees sign off that they don't need any files before wiping their systems. CYA.",null,2,cdpgbp1,1ro8ur,TalesFromTechsupport,top_day,17
-Koras,"I had a friend at uni who harped on constantly about needing backups despite the fact I told him repeatedly that I keep a portable drive and a dropbox account that I use purely for backing what little important stuff I have... his computer died, he lost everything.
-
-Turns out the entire time he was ""backing up"" files from his computer's only hard drive on his computer's only hard drive. So y'know, if his computer's hard drive died he'd always have a copy of all of his files on his- oh.",null,0,cdphh3a,1ro8ur,TalesFromTechsupport,top_day,13
-hicow,"I'd back it up anyway. Even if I know a machine is backed up, I pull a fresh backup before I wipe a disk. For certain procedures I do at work, I back up data two different ways - one is easier to restore but harder to get to, the other is a pain to restore but close at hand.
-
-In this sort of situation, I wouldn't charge to do the backup, obviously, but it'd be at least double rate to restore said backup. And very clearly laid out as to why they're paying double to get said data back.",null,0,cdpbkfa,1ro8ur,TalesFromTechsupport,top_day,11
-JNoel1234,"I've run into this problem several times and have since decided to always make a disk image backup whether the customer thinks he needs it or not. I use a program called Drive Snapshot. The program doesn't require installation and it has good compression. After I reinstall Windows, I put the disk image file in a folder on the C:\ drive called ""Backup"". I tell the customer that all of their old stuff is sealed in this file and that if they realize later that they need something I can get it back for them. I don't charge for the disk image but I do charge for the data retrieval from the image. Doing this has saved me so many headaches. ",null,0,cdpgtg6,1ro8ur,TalesFromTechsupport,top_day,3
-bikerwalla,"""Well of course I lied! I didn't want you to think I was too stupid to back it up!""",null,0,cdpjj1t,1ro8ur,TalesFromTechsupport,top_day,2
-humpax,"&gt;I keep all my data on D: so its not lost if my C: crashes, i dont need no stupid cloud-whatyacallit backup!
-
-^^Computer ^^only ^^had ^^1 ^^Harddrive..",null,0,cdpngyc,1ro8ur,TalesFromTechsupport,top_day,1
-dereckc1,"Why yes, yes it is a joke HR didn't understand. However the joke was on PFY who probably didn't find it very funny. ",null,9,cdp8ppv,1rodh8,TalesFromTechsupport,top_day,46
-tardis42,:D,null,2,cdpa4uz,1rodh8,TalesFromTechsupport,top_day,21
-Techwolfy,"♫ Lie, lie, lie, lie to get out of work! ♫ &lt;-- Your old PFY
-
-OOTS is a fun comic.",null,5,cdpgkd8,1rodh8,TalesFromTechsupport,top_day,15
-enigmaquip,"awwwww man, I had totally forgotten about MegaTokyo. That and [Sluggy Freelance](http://www.sluggy.com/) used to be my daily reads.",null,0,cdpabqb,1rodh8,TalesFromTechsupport,top_day,8
-OverlordQ,What the heck did you do?  I admittedly haven't worked for a megacorp seems like people spend years in training and classes from your stories. ,null,0,cdphf1o,1rodh8,TalesFromTechsupport,top_day,3
-Martsigras,"Reading through the dialogue between the two instructors I was thinking very loudly ""DIG UP, STUPID!""",null,0,cdpivha,1rodh8,TalesFromTechsupport,top_day,3
-Degru,"Dangit, there's two more webcomics added to my list...",null,0,cdpsu8h,1rodh8,TalesFromTechsupport,top_day,1
-reddittemp2,Too many words. Didn't make it.,null,19,cdpf46b,1rodh8,TalesFromTechsupport,top_day,5
-dereckc1,"Why yes, yes it is a joke HR didn't understand. However the joke was on PFY who probably didn't find it very funny. ",null,9,cdp8ppv,1rodh8,TalesFromTechsupport,top_day,46
-tardis42,:D,null,2,cdpa4uz,1rodh8,TalesFromTechsupport,top_day,21
-Techwolfy,"♫ Lie, lie, lie, lie to get out of work! ♫ &lt;-- Your old PFY
-
-OOTS is a fun comic.",null,5,cdpgkd8,1rodh8,TalesFromTechsupport,top_day,15
-enigmaquip,"awwwww man, I had totally forgotten about MegaTokyo. That and [Sluggy Freelance](http://www.sluggy.com/) used to be my daily reads.",null,0,cdpabqb,1rodh8,TalesFromTechsupport,top_day,8
-OverlordQ,What the heck did you do?  I admittedly haven't worked for a megacorp seems like people spend years in training and classes from your stories. ,null,0,cdphf1o,1rodh8,TalesFromTechsupport,top_day,3
-Martsigras,"Reading through the dialogue between the two instructors I was thinking very loudly ""DIG UP, STUPID!""",null,0,cdpivha,1rodh8,TalesFromTechsupport,top_day,3
-Degru,"Dangit, there's two more webcomics added to my list...",null,0,cdpsu8h,1rodh8,TalesFromTechsupport,top_day,1
-reddittemp2,Too many words. Didn't make it.,null,19,cdpf46b,1rodh8,TalesFromTechsupport,top_day,5
-blightedfire,"Actually, the leaf blower might have blown stuff into the system.  General detritus tends go go nuts when you turn one on--that's the point.",null,3,cdp998c,1rodtd,TalesFromTechsupport,top_day,14
-Seaman182,"Is it bad that my computer's dustier than that after a few months without cleaning? All I see is a little pile of dust in the lower right, and a light coating on some other spots.",null,1,cdpg48s,1rodtd,TalesFromTechsupport,top_day,5
-VeteranKamikaze,[The **best** way to clean out a dusty case.](http://www.northerntool.com/images/product/2000x2000/154/154220_2000x2000.jpg),null,1,cdpg9k4,1rodtd,TalesFromTechsupport,top_day,5
-lp86,"I have used a leaf blower to clean a few computers out, and they still work. The only problem I usually have is the fans get spun so fast by the air that they burn out, they are not designed to spin that fast. so I just wedge something in the fan to keep it stationary while I blast it with the leaf blower.",null,1,cdph037,1rodtd,TalesFromTechsupport,top_day,5
-KaziArmada,"[If you need to blow shit out, I prefer to use this](http://www.newegg.com/Product/Product.aspx?Item=N82E16896367002)
-
-Can't use it in the house, it's *way* too powerful and will just make a general mess of my office. Very focused however, it's easy as hell to get all the general dust and crap out of a machine...just make sure to pin the fans so they can't spin like crazy. ",null,1,cdpj27a,1rodtd,TalesFromTechsupport,top_day,5
-LadyACW,How the hell does someone get MAGGOTS in their computer and not know it? ,null,0,cdpgjhj,1rodtd,TalesFromTechsupport,top_day,3
-thagrandcow,"A leaf blower is MAJOR BAD to use inside a computer, holy crap. You probably did more damage than you fixed.",null,2,cdpausm,1rodtd,TalesFromTechsupport,top_day,3
-fangfoes,"If I had photos you probably have me just completely destroy the thing. My grandparents gave me an ok computer from 2003/2004 and when I opened it up to clean. I saw nothing BUT dust. apparently they decided that storing it somewhere where they had a dust problem was a good idea. I'm just glad it didn't burn the house down. Anyways I used a can of compressed air and somehow the dust came off in layers. Rough layers, but layers non the less. I'm not even going to get into the hard drive because you'd be reading this for a while. ",null,1,cdpdhnn,1rodtd,TalesFromTechsupport,top_day,3
-JNoel1234,I have a small electric leaf blower and it's what I use to clean my computers. It's a lot cheaper than buying canned air and I can clean my whole computer in about 15 seconds. I've never had an issue from doing this.,null,0,cdpgwwh,1rodtd,TalesFromTechsupport,top_day,2
-s3rious_simon,Compressor &gt;  leaf blower,null,0,cdpkyb2,1rodtd,TalesFromTechsupport,top_day,1
-Arcsane,"If you couldn't clean that with compressed air, you might want to change brands.  Alternate two cans so the nozzle doesn't freeze over and you should be right as rain - I've cleaned out much worse than that for work, and the precision from the straw on the can usually helps with the crevices.
-
-Still, looks like you did a decent job.",null,0,cdpomdh,1rodtd,TalesFromTechsupport,top_day,2
-SerBeardian,"I've always used a vacuum cleaner to clean my computers.
-
-Not only does it get rid of the thickest of dust, but it doesn't need to be refilled and you know exactly where the dust went.",null,0,cdq2fqv,1rodtd,TalesFromTechsupport,top_day,1
-LPPalScore,"All of that dust = *fap, fap, fap*",null,1,cdpl57j,1rodtd,TalesFromTechsupport,top_day,1
-blightedfire,"Actually, the leaf blower might have blown stuff into the system.  General detritus tends go go nuts when you turn one on--that's the point.",null,3,cdp998c,1rodtd,TalesFromTechsupport,top_day,14
-Seaman182,"Is it bad that my computer's dustier than that after a few months without cleaning? All I see is a little pile of dust in the lower right, and a light coating on some other spots.",null,1,cdpg48s,1rodtd,TalesFromTechsupport,top_day,5
-VeteranKamikaze,[The **best** way to clean out a dusty case.](http://www.northerntool.com/images/product/2000x2000/154/154220_2000x2000.jpg),null,1,cdpg9k4,1rodtd,TalesFromTechsupport,top_day,5
-lp86,"I have used a leaf blower to clean a few computers out, and they still work. The only problem I usually have is the fans get spun so fast by the air that they burn out, they are not designed to spin that fast. so I just wedge something in the fan to keep it stationary while I blast it with the leaf blower.",null,1,cdph037,1rodtd,TalesFromTechsupport,top_day,5
-KaziArmada,"[If you need to blow shit out, I prefer to use this](http://www.newegg.com/Product/Product.aspx?Item=N82E16896367002)
-
-Can't use it in the house, it's *way* too powerful and will just make a general mess of my office. Very focused however, it's easy as hell to get all the general dust and crap out of a machine...just make sure to pin the fans so they can't spin like crazy. ",null,1,cdpj27a,1rodtd,TalesFromTechsupport,top_day,5
-LadyACW,How the hell does someone get MAGGOTS in their computer and not know it? ,null,0,cdpgjhj,1rodtd,TalesFromTechsupport,top_day,3
-thagrandcow,"A leaf blower is MAJOR BAD to use inside a computer, holy crap. You probably did more damage than you fixed.",null,2,cdpausm,1rodtd,TalesFromTechsupport,top_day,3
-fangfoes,"If I had photos you probably have me just completely destroy the thing. My grandparents gave me an ok computer from 2003/2004 and when I opened it up to clean. I saw nothing BUT dust. apparently they decided that storing it somewhere where they had a dust problem was a good idea. I'm just glad it didn't burn the house down. Anyways I used a can of compressed air and somehow the dust came off in layers. Rough layers, but layers non the less. I'm not even going to get into the hard drive because you'd be reading this for a while. ",null,1,cdpdhnn,1rodtd,TalesFromTechsupport,top_day,3
-JNoel1234,I have a small electric leaf blower and it's what I use to clean my computers. It's a lot cheaper than buying canned air and I can clean my whole computer in about 15 seconds. I've never had an issue from doing this.,null,0,cdpgwwh,1rodtd,TalesFromTechsupport,top_day,2
-s3rious_simon,Compressor &gt;  leaf blower,null,0,cdpkyb2,1rodtd,TalesFromTechsupport,top_day,1
-Arcsane,"If you couldn't clean that with compressed air, you might want to change brands.  Alternate two cans so the nozzle doesn't freeze over and you should be right as rain - I've cleaned out much worse than that for work, and the precision from the straw on the can usually helps with the crevices.
-
-Still, looks like you did a decent job.",null,0,cdpomdh,1rodtd,TalesFromTechsupport,top_day,2
-SerBeardian,"I've always used a vacuum cleaner to clean my computers.
-
-Not only does it get rid of the thickest of dust, but it doesn't need to be refilled and you know exactly where the dust went.",null,0,cdq2fqv,1rodtd,TalesFromTechsupport,top_day,1
-LPPalScore,"All of that dust = *fap, fap, fap*",null,1,cdpl57j,1rodtd,TalesFromTechsupport,top_day,1
-thetoastmonster,"Stripy Orange, Orange. Stripy Green, Blue. Stripy Blue, Green. Stripy Brown, Brown.
-
-T568B ftw.",null,4,cdpjoux,1rourb,TalesFromTechsupport,top_day,20
-VeteranKamikaze,"&gt; BlueWhite-Blue, OrangeWhite-**Orange**, GreenWhite-Green
-
-Oh god, cringed so hard right here. Just glad to hear your head didn't end up rolling over it!",null,3,cdpgfzy,1rourb,TalesFromTechsupport,top_day,16
-calicoan,"Out of curiosity, what color code was it that u knew forwards and backwards?
-
-",null,1,cdph1ev,1rourb,TalesFromTechsupport,top_day,10
-cjkline83,"I was taught White-Blue, Blue, White-Orange, Green, White-PGreen, Orange, White-Brown, Brown. Had to terminate thousands of cables one summer. Can do these and rj-45 punch downs in my sleep.",null,2,cdpi5la,1rourb,TalesFromTechsupport,top_day,7
-Diskilla,"It doesn't really matter which color code you use IF you use always the same for every cable... Although it is better to use the standards like you did after getting told what the standard was. I'm just glad, that I am not the only one who made this mistake at the beginning :D",null,8,cdphfeq,1rourb,TalesFromTechsupport,top_day,11
-_ryu_,"gee, i remember that time after a few years out of IT field, I got asked to make a simple crossover patchcord, of course I remebered T568B, I was taught the importance of the green pair and so and so.
-
-So, I arranged the wires correctly, wo,orange,wg,blue,wb... but feeling very confident that day I set the RJ45 fliped! so my RJ45 started with brown, white brown, green,white blue,blue,white green,orange and lastly white orange...
-
-I realized JUST after I crimped that connector...
-
-trying to play it cool, I made the crossover sequence on my head so I didn't waste a RJ45...
-
-up to this day, there is one crossover patchcord with a weird color pattern that haunts me every time I grimp a new one...
-",null,0,cdq0eho,1rourb,TalesFromTechsupport,top_day,2
-thetoastmonster,"Stripy Orange, Orange. Stripy Green, Blue. Stripy Blue, Green. Stripy Brown, Brown.
-
-T568B ftw.",null,4,cdpjoux,1rourb,TalesFromTechsupport,top_day,20
-VeteranKamikaze,"&gt; BlueWhite-Blue, OrangeWhite-**Orange**, GreenWhite-Green
-
-Oh god, cringed so hard right here. Just glad to hear your head didn't end up rolling over it!",null,3,cdpgfzy,1rourb,TalesFromTechsupport,top_day,16
-calicoan,"Out of curiosity, what color code was it that u knew forwards and backwards?
-
-",null,1,cdph1ev,1rourb,TalesFromTechsupport,top_day,10
-cjkline83,"I was taught White-Blue, Blue, White-Orange, Green, White-PGreen, Orange, White-Brown, Brown. Had to terminate thousands of cables one summer. Can do these and rj-45 punch downs in my sleep.",null,2,cdpi5la,1rourb,TalesFromTechsupport,top_day,7
-Diskilla,"It doesn't really matter which color code you use IF you use always the same for every cable... Although it is better to use the standards like you did after getting told what the standard was. I'm just glad, that I am not the only one who made this mistake at the beginning :D",null,8,cdphfeq,1rourb,TalesFromTechsupport,top_day,11
-_ryu_,"gee, i remember that time after a few years out of IT field, I got asked to make a simple crossover patchcord, of course I remebered T568B, I was taught the importance of the green pair and so and so.
-
-So, I arranged the wires correctly, wo,orange,wg,blue,wb... but feeling very confident that day I set the RJ45 fliped! so my RJ45 started with brown, white brown, green,white blue,blue,white green,orange and lastly white orange...
-
-I realized JUST after I crimped that connector...
-
-trying to play it cool, I made the crossover sequence on my head so I didn't waste a RJ45...
-
-up to this day, there is one crossover patchcord with a weird color pattern that haunts me every time I grimp a new one...
-",null,0,cdq0eho,1rourb,TalesFromTechsupport,top_day,2
-DerManiac,"&gt; ""I don't really do audio"" 
-
-This is the most awesome way I've ever seen someone say ""I'm deaf"".",null,4,cdpj2kd,1rp75t,TalesFromTechsupport,top_day,51
-Koras,"Asking a deaf person to fix audio issues...
-
-It's like a sound-based version of the blind leading the blind",null,4,cdphkcf,1rp75t,TalesFromTechsupport,top_day,48
-KaziArmada,"'Fix this for me, BUT DON'T TOUCH IT!'
-
-Alright, wait one moment while I tap into my latent psychic powers...and go log into the router on my phone and block your internet, you little snot. ",null,3,cdpj2os,1rp75t,TalesFromTechsupport,top_day,37
-kaminamina,Are you sure you aren't leaving some of the story out?,null,0,cdpl6a8,1rp75t,TalesFromTechsupport,top_day,9
-nerga,"Look on the bright side, you're deaf so you wont have to ever hear how shitty Turtle Beach head phones are. They are the gaming equivalent of beats by dre, $30 headphones with a huge mark up.",null,0,cdplu7b,1rp75t,TalesFromTechsupport,top_day,8
-noonespecific,"""*Sounds* fine to me!""",null,0,cdpri41,1rp75t,TalesFromTechsupport,top_day,5
-VentKazemaru,If you're deaf. Doesn't that mean he did sign language to call you or you can read lips?,null,0,cdpoy8i,1rp75t,TalesFromTechsupport,top_day,4
-rgbwr,"Fuck sounds like my family. They just want me to magic everything to woeking order. I mean, it usually does but it's not like I know about it",null,0,cdpmqqr,1rp75t,TalesFromTechsupport,top_day,3
-Sknowingwolf,was probably worried youd find his porn,null,0,cdq134g,1rp75t,TalesFromTechsupport,top_day,1
-Banane9,"I wanted to make a joke about hearing problems, but I was afraid you'd laugh to your deaf.I'm so sorry...",null,15,cdpjcbr,1rp75t,TalesFromTechsupport,top_day,7
-DerManiac,"&gt; ""I don't really do audio"" 
-
-This is the most awesome way I've ever seen someone say ""I'm deaf"".",null,4,cdpj2kd,1rp75t,TalesFromTechsupport,top_day,51
-Koras,"Asking a deaf person to fix audio issues...
-
-It's like a sound-based version of the blind leading the blind",null,4,cdphkcf,1rp75t,TalesFromTechsupport,top_day,48
-KaziArmada,"'Fix this for me, BUT DON'T TOUCH IT!'
-
-Alright, wait one moment while I tap into my latent psychic powers...and go log into the router on my phone and block your internet, you little snot. ",null,3,cdpj2os,1rp75t,TalesFromTechsupport,top_day,37
-kaminamina,Are you sure you aren't leaving some of the story out?,null,0,cdpl6a8,1rp75t,TalesFromTechsupport,top_day,9
-nerga,"Look on the bright side, you're deaf so you wont have to ever hear how shitty Turtle Beach head phones are. They are the gaming equivalent of beats by dre, $30 headphones with a huge mark up.",null,0,cdplu7b,1rp75t,TalesFromTechsupport,top_day,8
-noonespecific,"""*Sounds* fine to me!""",null,0,cdpri41,1rp75t,TalesFromTechsupport,top_day,5
-VentKazemaru,If you're deaf. Doesn't that mean he did sign language to call you or you can read lips?,null,0,cdpoy8i,1rp75t,TalesFromTechsupport,top_day,4
-rgbwr,"Fuck sounds like my family. They just want me to magic everything to woeking order. I mean, it usually does but it's not like I know about it",null,0,cdpmqqr,1rp75t,TalesFromTechsupport,top_day,3
-Sknowingwolf,was probably worried youd find his porn,null,0,cdq134g,1rp75t,TalesFromTechsupport,top_day,1
-Banane9,"I wanted to make a joke about hearing problems, but I was afraid you'd laugh to your deaf.I'm so sorry...",null,15,cdpjcbr,1rp75t,TalesFromTechsupport,top_day,7
-StrobingFlare,"TEACHING the neighbour!
-(She would be the one doing the learning)",null,27,cdpixs9,1rp7bl,TalesFromTechsupport,top_day,103
-coptician,"Windows 8 has many flaws, but for a completely computer illiterate person it's pretty perfect.
-
-There's a lot of stuff you don't have to explain with Windows 8, and what you do need to explain makes a lot more sense to someone like that.
-
-Embrace it!
-
-(Win8 still wasn't a good idea.)",null,11,cdpima0,1rp7bl,TalesFromTechsupport,top_day,33
-donmanrobb,ChromeOS pretty much is an internet OS...I'll see myself out ,null,2,cdpklw0,1rp7bl,TalesFromTechsupport,top_day,16
-Harrstein,"Well with chrome os and alikes, the internet is basically your os.",null,4,cdpi63p,1rp7bl,TalesFromTechsupport,top_day,14
-drdeadringer,"&gt; Internet is an OS
-
-... Not such a bad idea, per se.
-
-Am still a little off about a chromebook though.",null,1,cdpka60,1rp7bl,TalesFromTechsupport,top_day,6
-OgdruJahad,"&gt;TLDR: Internet is an OS
-
-This is coming (in one form or the other) sooner rather than later. ",null,0,cdpnra6,1rp7bl,TalesFromTechsupport,top_day,3
-demyze,`s/Learning/Teaching/` `:)`,null,2,cdpiypq,1rp7bl,TalesFromTechsupport,top_day,4
-GetOffMyLawn_,"I had the misfortune of answering the helpdesk line one day:
-
-Me: What operating system are you using?
-User: Office!
-",null,0,cdpkf9v,1rp7bl,TalesFromTechsupport,top_day,3
-Qes138,My 65 year old mother is terrible at learning new technology. It took 3 lessons for her to 'get the knack of' using a mouse. My 21 year old little sister occasionally used my Mom's computer. This resulted in hours of my time fixing registry errors and removing viruses. (Windows XP with Norton) I eventually put Ubuntu on her computer. (All she uses the machine for is email and helping my niece with homework.) Now I don't have to act as my Mom's personal tech support all the time. Unfortunately; my Dad did just get a smart phone........,null,0,cdpknq0,1rp7bl,TalesFromTechsupport,top_day,3
-_aron_,"My elderly neighbors showed up on my doorstep last year with an arm full of phones and cables asking, ""Can you help us get the pictures off these phones?""  It took about an hour of my time at their house to teach them.  Last Christmas I was home alone and they brought me dinner every day for a week and all summer they bring me fresh veggies.  You never know how a little patience on your end will pay off in the long run.  Sometimes it doesn't, but when it does it redeems a lot of tech-related headaches that come with helping others.",null,0,cdpkwai,1rp7bl,TalesFromTechsupport,top_day,3
-showyerbewbs,"Just to be COMPLETELY pedantic, 
-
-http://en.wikipedia.org/wiki/Internet_OS
-
-Kind of like http://www.reddit.com/r/talesfromtechsupport/comments/1rp7bl/learning_the_neighbour_how_to_use_a_computer/cdpklw0",null,0,cdpkzow,1rp7bl,TalesFromTechsupport,top_day,3
-StrobingFlare,"TEACHING the neighbour!
-(She would be the one doing the learning)",null,27,cdpixs9,1rp7bl,TalesFromTechsupport,top_day,103
-coptician,"Windows 8 has many flaws, but for a completely computer illiterate person it's pretty perfect.
-
-There's a lot of stuff you don't have to explain with Windows 8, and what you do need to explain makes a lot more sense to someone like that.
-
-Embrace it!
-
-(Win8 still wasn't a good idea.)",null,11,cdpima0,1rp7bl,TalesFromTechsupport,top_day,33
-donmanrobb,ChromeOS pretty much is an internet OS...I'll see myself out ,null,2,cdpklw0,1rp7bl,TalesFromTechsupport,top_day,16
-Harrstein,"Well with chrome os and alikes, the internet is basically your os.",null,4,cdpi63p,1rp7bl,TalesFromTechsupport,top_day,14
-drdeadringer,"&gt; Internet is an OS
-
-... Not such a bad idea, per se.
-
-Am still a little off about a chromebook though.",null,1,cdpka60,1rp7bl,TalesFromTechsupport,top_day,6
-OgdruJahad,"&gt;TLDR: Internet is an OS
-
-This is coming (in one form or the other) sooner rather than later. ",null,0,cdpnra6,1rp7bl,TalesFromTechsupport,top_day,3
-demyze,`s/Learning/Teaching/` `:)`,null,2,cdpiypq,1rp7bl,TalesFromTechsupport,top_day,4
-GetOffMyLawn_,"I had the misfortune of answering the helpdesk line one day:
-
-Me: What operating system are you using?
-User: Office!
-",null,0,cdpkf9v,1rp7bl,TalesFromTechsupport,top_day,3
-Qes138,My 65 year old mother is terrible at learning new technology. It took 3 lessons for her to 'get the knack of' using a mouse. My 21 year old little sister occasionally used my Mom's computer. This resulted in hours of my time fixing registry errors and removing viruses. (Windows XP with Norton) I eventually put Ubuntu on her computer. (All she uses the machine for is email and helping my niece with homework.) Now I don't have to act as my Mom's personal tech support all the time. Unfortunately; my Dad did just get a smart phone........,null,0,cdpknq0,1rp7bl,TalesFromTechsupport,top_day,3
-_aron_,"My elderly neighbors showed up on my doorstep last year with an arm full of phones and cables asking, ""Can you help us get the pictures off these phones?""  It took about an hour of my time at their house to teach them.  Last Christmas I was home alone and they brought me dinner every day for a week and all summer they bring me fresh veggies.  You never know how a little patience on your end will pay off in the long run.  Sometimes it doesn't, but when it does it redeems a lot of tech-related headaches that come with helping others.",null,0,cdpkwai,1rp7bl,TalesFromTechsupport,top_day,3
-showyerbewbs,"Just to be COMPLETELY pedantic, 
-
-http://en.wikipedia.org/wiki/Internet_OS
-
-Kind of like http://www.reddit.com/r/talesfromtechsupport/comments/1rp7bl/learning_the_neighbour_how_to_use_a_computer/cdpklw0",null,0,cdpkzow,1rp7bl,TalesFromTechsupport,top_day,3
-AramisAthosPorthos,Let's issue 8GB laptops with a 32-bit OS.,null,0,cdpo7m6,1rpf6h,TalesFromTechsupport,top_day,9
-Tomagathericon,Everything that ends in .dll is a virus and needs to be carefully removed.,null,0,cdplv3h,1rpf6h,TalesFromTechsupport,top_day,8
-sandiercy,All .exe files must be deleted because they are executing files everywhere. ,null,0,cdpmjka,1rpf6h,TalesFromTechsupport,top_day,5
-vincentkant,"Clean up your win32 dir, there is where the viruses are.",null,0,cdpoyyf,1rpf6h,TalesFromTechsupport,top_day,3
-DefiniteMethAddict,"&gt; I'm glad its not a celeron.
-
-Oi! E1200 here! 
-
-I play warthunder and run a local network off this bad boy!",null,0,cdq4n4m,1rpf6h,TalesFromTechsupport,top_day,2
-AramisAthosPorthos,Let's issue 8GB laptops with a 32-bit OS.,null,0,cdpo7m6,1rpf6h,TalesFromTechsupport,top_day,9
-Tomagathericon,Everything that ends in .dll is a virus and needs to be carefully removed.,null,0,cdplv3h,1rpf6h,TalesFromTechsupport,top_day,8
-sandiercy,All .exe files must be deleted because they are executing files everywhere. ,null,0,cdpmjka,1rpf6h,TalesFromTechsupport,top_day,5
-vincentkant,"Clean up your win32 dir, there is where the viruses are.",null,0,cdpoyyf,1rpf6h,TalesFromTechsupport,top_day,3
-DefiniteMethAddict,"&gt; I'm glad its not a celeron.
-
-Oi! E1200 here! 
-
-I play warthunder and run a local network off this bad boy!",null,0,cdq4n4m,1rpf6h,TalesFromTechsupport,top_day,2
-Broest_of_bros_sir,Twist: she keeps knocking the iPad off the table into the ground.,null,4,cdpk6jv,1rphkz,TalesFromTechsupport,top_day,50
-Matvalicious,It's probably because there are illegal characters in her e-mail address. ,null,2,cdpka7i,1rphkz,TalesFromTechsupport,top_day,27
-MrTig,Sounds like she wants your to visit and using this to get you there..,null,1,cdpjtyc,1rphkz,TalesFromTechsupport,top_day,14
-CharsCustomerService,"Yesterday I was the family helpdesk after Thanksgiving dinner. The only detail I got was, ""my computer doesn't work."" Turns out the power cord for the monitor was slightly loose.",null,0,cdpn41s,1rphkz,TalesFromTechsupport,top_day,5
-straks,"I get that all the time with regular users in company's...
-
-I get a mail with subject ""Program X acts wierd"", and that's it, nothing else. We even have a developer who does stuff like that, he got mad when I created a bug report and assigned it to him with only a subject ""Webapp Y does strange stuff"".
-
-Even then, he didn't get it...",null,0,cdpksyw,1rphkz,TalesFromTechsupport,top_day,4
-jingerninja,My Mom does this kind of thing from her Blackberry all the time. She means to text me and instead sends me an email with the contents of the SMS in the subject line and an empty body.,null,0,cdpmytk,1rphkz,TalesFromTechsupport,top_day,4
-zurohki,"I have a friend who just replies, ""Format."" to anything without details.",null,0,cdplkey,1rphkz,TalesFromTechsupport,top_day,2
-Broest_of_bros_sir,Twist: she keeps knocking the iPad off the table into the ground.,null,4,cdpk6jv,1rphkz,TalesFromTechsupport,top_day,50
-Matvalicious,It's probably because there are illegal characters in her e-mail address. ,null,2,cdpka7i,1rphkz,TalesFromTechsupport,top_day,27
-MrTig,Sounds like she wants your to visit and using this to get you there..,null,1,cdpjtyc,1rphkz,TalesFromTechsupport,top_day,14
-CharsCustomerService,"Yesterday I was the family helpdesk after Thanksgiving dinner. The only detail I got was, ""my computer doesn't work."" Turns out the power cord for the monitor was slightly loose.",null,0,cdpn41s,1rphkz,TalesFromTechsupport,top_day,5
-straks,"I get that all the time with regular users in company's...
-
-I get a mail with subject ""Program X acts wierd"", and that's it, nothing else. We even have a developer who does stuff like that, he got mad when I created a bug report and assigned it to him with only a subject ""Webapp Y does strange stuff"".
-
-Even then, he didn't get it...",null,0,cdpksyw,1rphkz,TalesFromTechsupport,top_day,4
-jingerninja,My Mom does this kind of thing from her Blackberry all the time. She means to text me and instead sends me an email with the contents of the SMS in the subject line and an empty body.,null,0,cdpmytk,1rphkz,TalesFromTechsupport,top_day,4
-zurohki,"I have a friend who just replies, ""Format."" to anything without details.",null,0,cdplkey,1rphkz,TalesFromTechsupport,top_day,2
-KermitDeFrawg,"It could have been worse.
-
-I was expecting you to stumble upon a folder full of $FamilyMember$SexActing$HorriblyInnapropriateFamilyMember.mov ",null,35,cdploex,1rpisc,TalesFromTechsupport,top_day,197
-benzooo,My meth recipes!,null,22,cdpl7jk,1rpisc,TalesFromTechsupport,top_day,100
-ScottyEsq,The first time someone I'm helping gets mad is the last time I help them. If you want to yell you have to pay. ,null,2,cdplru5,1rpisc,TalesFromTechsupport,top_day,43
-Tortured_Sole,"&gt; but refused to have it.
-
-I hope that's the last time he got himself some free computer support.",null,2,cdpm7ll,1rpisc,TalesFromTechsupport,top_day,34
--jackschitt-,"Reminds me of a co-worker request I had one time.
-
-She suspected that her then-16 year old daughter was using the family computer to post pictures of herself on the internet (And to be honest, the girl in question was very attractive and quite stacked).  She asked if I would come over to help see if there were any hidden pictures of her somewhere in the computer since she (the mother) was completely computer-illiterate.  
-
-But there was a catch -- she wanted me to do it blindfolded.  I was to do all the work and she would look over my shoulder.  When I tried my best to explain how absurd her request was, she replied ""Well then I'll just take it to Best Buy.  At least they'll be professionals about it.""
-
-Yep.....she wouldn't trust me doing the work in her house, under her supervision, for free.  But blindly handing over her PC to a bunch of 19 year olds at best buy where they can take it into a back room and do whatever the hell they want, and spending $150 for the privilege?  No problem!  
-
-I never did find out the results.
-
-",null,5,cdpql93,1rpisc,TalesFromTechsupport,top_day,37
-Mingusfan101,"I did a recuva file recovery on a computer once for this one person.  I made her sit with me while I explained that the file names would not be what they were pre-recovery (she formatted her drive)
-
-There's something about webcams that make any girl aged 19-33 lose all common sense whatsoever.",null,0,cdpo8gs,1rpisc,TalesFromTechsupport,top_day,14
-sekh60,"Total side topic. I've feigned ignorance of all things to do with televisions, VCRs, DVD players, etc. for years just so I don't have to support those as well. In reality I can handle them, though when I visit a friend who has like 5 different remotes it can take a bit to figure out which controls what.",null,1,cdpnkp7,1rpisc,TalesFromTechsupport,top_day,13
-seraph77,"I can't even count the amount of times I've heard this. I had a female cousin come to me to ""fix"" her dead drive in a laptop (which had been throwing SMART errors for 2mo come to find out [drive failure imminent, replace drive immediately press F1 to continue]). She texts me an hour later after dropping it off to not go through her photos (which were what she wanted to recover), saying there might be some stuff on there I didn't want to see.
-
-This girl used to be 9/10 back in the day, but exploded to ~250lb after getting married and having kids. Perhaps it was the whole ""forbidden fruit"" mentality, but I couldn't not look for them after she said that. I found them buried in one of the hundreds of IMG_00xxx folders, her large self and her overweight hubby engaged in carnal pleasure. After vomiting a bit in my mouth and thanking my scumbag brain, I realized that's why you don't tell your techs about stuff like that. Without that comment, I would have restored all those generically-labeled folders without a second thought.
-
-",null,3,cdpwhgj,1rpisc,TalesFromTechsupport,top_day,4
-null,null,null,18,cdpox4y,1rpisc,TalesFromTechsupport,top_day,7
-KermitDeFrawg,"It could have been worse.
-
-I was expecting you to stumble upon a folder full of $FamilyMember$SexActing$HorriblyInnapropriateFamilyMember.mov ",null,35,cdploex,1rpisc,TalesFromTechsupport,top_day,197
-benzooo,My meth recipes!,null,22,cdpl7jk,1rpisc,TalesFromTechsupport,top_day,100
-ScottyEsq,The first time someone I'm helping gets mad is the last time I help them. If you want to yell you have to pay. ,null,2,cdplru5,1rpisc,TalesFromTechsupport,top_day,43
-Tortured_Sole,"&gt; but refused to have it.
-
-I hope that's the last time he got himself some free computer support.",null,2,cdpm7ll,1rpisc,TalesFromTechsupport,top_day,34
--jackschitt-,"Reminds me of a co-worker request I had one time.
-
-She suspected that her then-16 year old daughter was using the family computer to post pictures of herself on the internet (And to be honest, the girl in question was very attractive and quite stacked).  She asked if I would come over to help see if there were any hidden pictures of her somewhere in the computer since she (the mother) was completely computer-illiterate.  
-
-But there was a catch -- she wanted me to do it blindfolded.  I was to do all the work and she would look over my shoulder.  When I tried my best to explain how absurd her request was, she replied ""Well then I'll just take it to Best Buy.  At least they'll be professionals about it.""
-
-Yep.....she wouldn't trust me doing the work in her house, under her supervision, for free.  But blindly handing over her PC to a bunch of 19 year olds at best buy where they can take it into a back room and do whatever the hell they want, and spending $150 for the privilege?  No problem!  
-
-I never did find out the results.
-
-",null,5,cdpql93,1rpisc,TalesFromTechsupport,top_day,37
-Mingusfan101,"I did a recuva file recovery on a computer once for this one person.  I made her sit with me while I explained that the file names would not be what they were pre-recovery (she formatted her drive)
-
-There's something about webcams that make any girl aged 19-33 lose all common sense whatsoever.",null,0,cdpo8gs,1rpisc,TalesFromTechsupport,top_day,14
-sekh60,"Total side topic. I've feigned ignorance of all things to do with televisions, VCRs, DVD players, etc. for years just so I don't have to support those as well. In reality I can handle them, though when I visit a friend who has like 5 different remotes it can take a bit to figure out which controls what.",null,1,cdpnkp7,1rpisc,TalesFromTechsupport,top_day,13
-seraph77,"I can't even count the amount of times I've heard this. I had a female cousin come to me to ""fix"" her dead drive in a laptop (which had been throwing SMART errors for 2mo come to find out [drive failure imminent, replace drive immediately press F1 to continue]). She texts me an hour later after dropping it off to not go through her photos (which were what she wanted to recover), saying there might be some stuff on there I didn't want to see.
-
-This girl used to be 9/10 back in the day, but exploded to ~250lb after getting married and having kids. Perhaps it was the whole ""forbidden fruit"" mentality, but I couldn't not look for them after she said that. I found them buried in one of the hundreds of IMG_00xxx folders, her large self and her overweight hubby engaged in carnal pleasure. After vomiting a bit in my mouth and thanking my scumbag brain, I realized that's why you don't tell your techs about stuff like that. Without that comment, I would have restored all those generically-labeled folders without a second thought.
-
-",null,3,cdpwhgj,1rpisc,TalesFromTechsupport,top_day,4
-null,null,null,18,cdpox4y,1rpisc,TalesFromTechsupport,top_day,7
-pjhh,"&gt; rouge DHCP servers
-
-Did you try a different color to see if they were any better?",null,1,cdpkdkr,1rpivn,TalesFromTechsupport,top_day,42
-s-mores,"&gt;it would be safe and that they would have local admin so they can install software and they would not be able to sign in on one another computers.
-
-Oh dear. [Dis gon b gud](http://i.imgur.com/MXUg1Cq.gif)
-
-&gt;The alarm bells rung and a few scary days later
-
-It took them *several days* to fix an access violation of that magnitude? Oy oy, our coffee cannot repel that.
-
-Sounds about the time when you document everything, go to the principal and tell him either the AD goes or you stop fixing anything related to it. Also, since this sounds like something that *will* blow up at some point, why not start documenting the security problems, possible problems and hours spent on it, with a weekly mail to your boss/principal. You'll want to point to that when shit hits the fan.
-
-Anyway, I feel for you bro. [Have a cookie](http://25.media.tumblr.com/tumblr_kzrv9j07vx1qbue9so1_500.jpg)",null,2,cdpjvz6,1rpivn,TalesFromTechsupport,top_day,18
-IsilZha,"AD was setup improperly. I'm guessing a combination of no use of OUs, security groups, or GPO 's beyond the default.  I'm guessing whoever set it up just left all user accounts, student and teacher, in the default user container. likely did the same for the computer accounts, and then it sounds like they just put the User's, or Authenticated Users groups with admin rights into the default GPO,  applying it to all machines.",null,3,cdpm3io,1rpivn,TalesFromTechsupport,top_day,8
-jvnatter,Sounds like a certain charter school that ain't around anymore...,null,0,cdpnfcc,1rpivn,TalesFromTechsupport,top_day,1
-Vorteth,"Okay, I am not that skilled with AD, but this just bugs me.
-
-I have a home server for testing (go Dreamspark and MSDN!) and implemented Server 2012 with AD DC. 
-
-Now, I made a copy of the initial Admin for my main account with a backup Admin if I ever forget the password.
-
-What confuses me about this story is, how could you ever give someone ACCIDENTAL domain admin access? It is VERY clear cut on what each access group does.
-
-Granted I haven't played with GPO just yet (will be doing that for my MCSA training), but it seems like a giant fuck up that should be easily found in 10-15 minute testing...
-
-Or am I misunderstanding/oversimplifying?",null,0,cdpnrcg,1rpivn,TalesFromTechsupport,top_day,1
-akureiokami,"&gt;\&gt; school that specializes in IT
-
-&gt;\&gt; (Nobody in house knows *nix)
-
-Rrrrright",null,0,cdpvsth,1rpivn,TalesFromTechsupport,top_day,2
-pjhh,"&gt; rouge DHCP servers
-
-Did you try a different color to see if they were any better?",null,1,cdpkdkr,1rpivn,TalesFromTechsupport,top_day,42
-s-mores,"&gt;it would be safe and that they would have local admin so they can install software and they would not be able to sign in on one another computers.
-
-Oh dear. [Dis gon b gud](http://i.imgur.com/MXUg1Cq.gif)
-
-&gt;The alarm bells rung and a few scary days later
-
-It took them *several days* to fix an access violation of that magnitude? Oy oy, our coffee cannot repel that.
-
-Sounds about the time when you document everything, go to the principal and tell him either the AD goes or you stop fixing anything related to it. Also, since this sounds like something that *will* blow up at some point, why not start documenting the security problems, possible problems and hours spent on it, with a weekly mail to your boss/principal. You'll want to point to that when shit hits the fan.
-
-Anyway, I feel for you bro. [Have a cookie](http://25.media.tumblr.com/tumblr_kzrv9j07vx1qbue9so1_500.jpg)",null,2,cdpjvz6,1rpivn,TalesFromTechsupport,top_day,18
-IsilZha,"AD was setup improperly. I'm guessing a combination of no use of OUs, security groups, or GPO 's beyond the default.  I'm guessing whoever set it up just left all user accounts, student and teacher, in the default user container. likely did the same for the computer accounts, and then it sounds like they just put the User's, or Authenticated Users groups with admin rights into the default GPO,  applying it to all machines.",null,3,cdpm3io,1rpivn,TalesFromTechsupport,top_day,8
-jvnatter,Sounds like a certain charter school that ain't around anymore...,null,0,cdpnfcc,1rpivn,TalesFromTechsupport,top_day,1
-Vorteth,"Okay, I am not that skilled with AD, but this just bugs me.
-
-I have a home server for testing (go Dreamspark and MSDN!) and implemented Server 2012 with AD DC. 
-
-Now, I made a copy of the initial Admin for my main account with a backup Admin if I ever forget the password.
-
-What confuses me about this story is, how could you ever give someone ACCIDENTAL domain admin access? It is VERY clear cut on what each access group does.
-
-Granted I haven't played with GPO just yet (will be doing that for my MCSA training), but it seems like a giant fuck up that should be easily found in 10-15 minute testing...
-
-Or am I misunderstanding/oversimplifying?",null,0,cdpnrcg,1rpivn,TalesFromTechsupport,top_day,1
-akureiokami,"&gt;\&gt; school that specializes in IT
-
-&gt;\&gt; (Nobody in house knows *nix)
-
-Rrrrright",null,0,cdpvsth,1rpivn,TalesFromTechsupport,top_day,2
-UltraChip,"I feel your pain, young techie. You will have many similar stories in the years ahead. 
-
-One point of interest though: If your sister is serious about her photo editing then it actually does make sense for her to have an i7. Image rendering is very intensive on RAM and CPU resources, so the more power you can get along those lines the better off you are. Then again, if all she's doing is taking out red eye and brightening up dark shots then you may have a point.
-
-I agree with you that the 1TB hard drive is unneccesary though. If she was editing VIDEOS then 1TB would make sense, but not if she's just diddling around with photos. 
-
-As for Windows 8 I agree with you: It's a pain in the ass to teach new users what to do with it. But in fairness, it's extremely hard to find a pre-built computer with Windows 7 anymore so she was probably going to end up with Win8 any way. ",null,0,cdpnmrh,1rpx0v,TalesFromTechsupport,top_day,12
-Broest_of_bros_sir,"I've never really understood the W8 hate. I actually *like* metro. I lets me keep my desktop nice and clean and rather than digging through All Programs, everything that I use somewhat regularly is right there on the start screen.
-
-The only problem I have is with full-screen apps and you don't have to use those.",null,0,cdptuh4,1rpx0v,TalesFromTechsupport,top_day,4
-Alan_Smithee_,"Unfortunately for your sister, you don't know as much as you think... But that's how we learn. 
-
-Best thing to do is research these things beforehand.",null,0,cdq2xpq,1rpx0v,TalesFromTechsupport,top_day,4
-AramisAthosPorthos,Expected Jack Nicholson jokes,null,0,cdpo8ie,1rpx0v,TalesFromTechsupport,top_day,1
-Osiris32,"Tell him that you're going to put diesel into one of his gas engines, and you made sure that could work by putting in a different fuel filter.",null,4,cdpxuzf,1rq76x,TalesFromTechsupport,top_day,20
-ender-_,Was he charged for a replacement printer?,null,2,cdpqhfb,1rq76x,TalesFromTechsupport,top_day,12
-jimicus,Please tell me this is a joke.,null,0,cdpusin,1rq76x,TalesFromTechsupport,top_day,6
-Arizth,"My father does almost the exact same fucking thing
-Just refuses to understand that machines with circuit boards are inherently different from machines with spinning belts. ",null,0,cdpvif6,1rq76x,TalesFromTechsupport,top_day,3
-Tomagathericon,What the actual fuck. ,null,0,cdq4vqy,1rq76x,TalesFromTechsupport,top_day,1
+author,comment,downs,id,post,subreddit,type,ups,score
+ohmywordgiraffe,Blimey  hope you find a much better job really soon  Glad for one decent manager anyway ,0,cdpgy0t,1ro6wk,TalesFromTechsupport,top_day,3,3
+vincentkant,I really dont understand how dumb developers are somethimes Im a developer but Im fary enough tech savy to help other coworkers supporting communications and other things,0,cdpmerc,1ro6wk,TalesFromTechsupport,top_day,2,2
+saintNIC,woaaa,5,cdpe0ca,1ro6wk,TalesFromTechsupport,top_day,1,-4
+cmanyall,It would probably be worth your time to make a backup anyway when they say they have one already and then later on charge them ridiculous amounts for it if they turn out to need it but that would be ethically questionable,6,cdp7z11,1ro8ur,TalesFromTechsupport,top_day,37,31
+VeteranKamikaze,gt we have proof that a backup was not necessary Signed worksheet stating thisCannot emphasize enough how vital this is for anyone working in IT even in a corporate environment make employees sign off that they dont need any files before wiping their systems CYA,2,cdpgbp1,1ro8ur,TalesFromTechsupport,top_day,17,15
+Koras,I had a friend at uni who harped on constantly about needing backups despite the fact I told him repeatedly that I keep a portable drive and a dropbox account that I use purely for backing what little important stuff I have his computer died he lost everythingTurns out the entire time he was backing up files from his computers only hard drive on his computers only hard drive So yknow if his computers hard drive died hed always have a copy of all of his files on his oh,0,cdphh3a,1ro8ur,TalesFromTechsupport,top_day,13,13
+hicow,Id back it up anyway Even if I know a machine is backed up I pull a fresh backup before I wipe a disk For certain procedures I do at work I back up data two different ways  one is easier to restore but harder to get to the other is a pain to restore but close at handIn this sort of situation I wouldnt charge to do the backup obviously but itd be at least double rate to restore said backup And very clearly laid out as to why theyre paying double to get said data back,0,cdpbkfa,1ro8ur,TalesFromTechsupport,top_day,11,11
+JNoel,Ive run into this problem several times and have since decided to always make a disk image backup whether the customer thinks he needs it or not I use a program called Drive Snapshot The program doesnt require installation and it has good compression After I reinstall Windows I put the disk image file in a folder on the C drive called Backup I tell the customer that all of their old stuff is sealed in this file and that if they realize later that they need something I can get it back for them I dont charge for the disk image but I do charge for the data retrieval from the image Doing this has saved me so many headaches ,0,cdpgtg6,1ro8ur,TalesFromTechsupport,top_day,3,3
+bikerwalla,Well of course I lied I didnt want you to think I was too stupid to back it up,0,cdpjj1t,1ro8ur,TalesFromTechsupport,top_day,2,2
+humpax,gtI keep all my data on D so its not lost if my C crashes i dont need no stupid cloudwhatyacallit backupComputer only had  Harddrive,0,cdpngyc,1ro8ur,TalesFromTechsupport,top_day,1,1
+dereckc,Why yes yes it is a joke HR didnt understand However the joke was on PFY who probably didnt find it very funny ,9,cdp8ppv,1rodh8,TalesFromTechsupport,top_day,46,37
+tardis,D,2,cdpa4uz,1rodh8,TalesFromTechsupport,top_day,21,19
+Techwolfy, Lie lie lie lie to get out of work  lt Your old PFYOOTS is a fun comic,5,cdpgkd8,1rodh8,TalesFromTechsupport,top_day,15,10
+enigmaquip,awwwww man I had totally forgotten about MegaTokyo That and Sluggy Freelancehttpwwwsluggycom used to be my daily reads,0,cdpabqb,1rodh8,TalesFromTechsupport,top_day,8,8
+OverlordQ,What the heck did you do  I admittedly havent worked for a megacorp seems like people spend years in training and classes from your stories ,0,cdphf1o,1rodh8,TalesFromTechsupport,top_day,3,3
+Martsigras,Reading through the dialogue between the two instructors I was thinking very loudly DIG UP STUPID,0,cdpivha,1rodh8,TalesFromTechsupport,top_day,3,3
+Degru,Dangit theres two more webcomics added to my list,0,cdpsu8h,1rodh8,TalesFromTechsupport,top_day,1,1
+reddittemp,Too many words Didnt make it,19,cdpf46b,1rodh8,TalesFromTechsupport,top_day,5,-14
+blightedfire,Actually the leaf blower might have blown stuff into the system  General detritus tends go go nuts when you turn one onthats the point,3,cdp998c,1rodtd,TalesFromTechsupport,top_day,14,11
+Seaman,Is it bad that my computers dustier than that after a few months without cleaning All I see is a little pile of dust in the lower right and a light coating on some other spots,1,cdpg48s,1rodtd,TalesFromTechsupport,top_day,5,4
+VeteranKamikaze,The best way to clean out a dusty casehttpwwwnortherntoolcomimagesproductxxjpg,1,cdpg9k4,1rodtd,TalesFromTechsupport,top_day,5,4
+lp,I have used a leaf blower to clean a few computers out and they still work The only problem I usually have is the fans get spun so fast by the air that they burn out they are not designed to spin that fast so I just wedge something in the fan to keep it stationary while I blast it with the leaf blower,1,cdph037,1rodtd,TalesFromTechsupport,top_day,5,4
+KaziArmada,If you need to blow shit out I prefer to use thishttpwwwneweggcomProductProductaspxItemNECant use it in the house its way too powerful and will just make a general mess of my office Very focused however its easy as hell to get all the general dust and crap out of a machinejust make sure to pin the fans so they cant spin like crazy ,1,cdpj27a,1rodtd,TalesFromTechsupport,top_day,5,4
+LadyACW,How the hell does someone get MAGGOTS in their computer and not know it ,0,cdpgjhj,1rodtd,TalesFromTechsupport,top_day,3,3
+thagrandcow,A leaf blower is MAJOR BAD to use inside a computer holy crap You probably did more damage than you fixed,2,cdpausm,1rodtd,TalesFromTechsupport,top_day,3,1
+fangfoes,If I had photos you probably have me just completely destroy the thing My grandparents gave me an ok computer from  and when I opened it up to clean I saw nothing BUT dust apparently they decided that storing it somewhere where they had a dust problem was a good idea Im just glad it didnt burn the house down Anyways I used a can of compressed air and somehow the dust came off in layers Rough layers but layers non the less Im not even going to get into the hard drive because youd be reading this for a while ,1,cdpdhnn,1rodtd,TalesFromTechsupport,top_day,3,2
+JNoel,I have a small electric leaf blower and its what I use to clean my computers Its a lot cheaper than buying canned air and I can clean my whole computer in about  seconds Ive never had an issue from doing this,0,cdpgwwh,1rodtd,TalesFromTechsupport,top_day,2,2
+srioussimon,Compressor gt  leaf blower,0,cdpkyb2,1rodtd,TalesFromTechsupport,top_day,1,1
+Arcsane,If you couldnt clean that with compressed air you might want to change brands  Alternate two cans so the nozzle doesnt freeze over and you should be right as rain  Ive cleaned out much worse than that for work and the precision from the straw on the can usually helps with the crevicesStill looks like you did a decent job,0,cdpomdh,1rodtd,TalesFromTechsupport,top_day,2,2
+SerBeardian,Ive always used a vacuum cleaner to clean my computersNot only does it get rid of the thickest of dust but it doesnt need to be refilled and you know exactly where the dust went,0,cdq2fqv,1rodtd,TalesFromTechsupport,top_day,1,1
+LPPalScore,All of that dust  fap fap fap,1,cdpl57j,1rodtd,TalesFromTechsupport,top_day,1,0
+thetoastmonster,Stripy Orange Orange Stripy Green Blue Stripy Blue Green Stripy Brown BrownTB ftw,4,cdpjoux,1rourb,TalesFromTechsupport,top_day,20,16
+VeteranKamikaze,gt BlueWhiteBlue OrangeWhiteOrange GreenWhiteGreenOh god cringed so hard right here Just glad to hear your head didnt end up rolling over it,3,cdpgfzy,1rourb,TalesFromTechsupport,top_day,16,13
+calicoan,Out of curiosity what color code was it that u knew forwards and backwards,1,cdph1ev,1rourb,TalesFromTechsupport,top_day,10,9
+cjkline,I was taught WhiteBlue Blue WhiteOrange Green WhitePGreen Orange WhiteBrown Brown Had to terminate thousands of cables one summer Can do these and rj punch downs in my sleep,2,cdpi5la,1rourb,TalesFromTechsupport,top_day,7,5
+Diskilla,It doesnt really matter which color code you use IF you use always the same for every cable Although it is better to use the standards like you did after getting told what the standard was Im just glad that I am not the only one who made this mistake at the beginning D,8,cdphfeq,1rourb,TalesFromTechsupport,top_day,11,3
+ryu,gee i remember that time after a few years out of IT field I got asked to make a simple crossover patchcord of course I remebered TB I was taught the importance of the green pair and so and soSo I arranged the wires correctly woorangewgbluewb but feeling very confident that day I set the RJ fliped so my RJ started with brown white brown greenwhite bluebluewhite greenorange and lastly white orangeI realized JUST after I crimped that connectortrying to play it cool I made the crossover sequence on my head so I didnt waste a RJup to this day there is one crossover patchcord with a weird color pattern that haunts me every time I grimp a new one,0,cdq0eho,1rourb,TalesFromTechsupport,top_day,2,2
+DerManiac,gt I dont really do audio This is the most awesome way Ive ever seen someone say Im deaf,4,cdpj2kd,1rp75t,TalesFromTechsupport,top_day,51,47
+Koras,Asking a deaf person to fix audio issuesIts like a soundbased version of the blind leading the blind,4,cdphkcf,1rp75t,TalesFromTechsupport,top_day,48,44
+KaziArmada,Fix this for me BUT DONT TOUCH ITAlright wait one moment while I tap into my latent psychic powersand go log into the router on my phone and block your internet you little snot ,3,cdpj2os,1rp75t,TalesFromTechsupport,top_day,37,34
+kaminamina,Are you sure you arent leaving some of the story out,0,cdpl6a8,1rp75t,TalesFromTechsupport,top_day,9,9
+nerga,Look on the bright side youre deaf so you wont have to ever hear how shitty Turtle Beach head phones are They are the gaming equivalent of beats by dre  headphones with a huge mark up,0,cdplu7b,1rp75t,TalesFromTechsupport,top_day,8,8
+noonespecific,Sounds fine to me,0,cdpri41,1rp75t,TalesFromTechsupport,top_day,5,5
+VentKazemaru,If youre deaf Doesnt that mean he did sign language to call you or you can read lips,0,cdpoy8i,1rp75t,TalesFromTechsupport,top_day,4,4
+rgbwr,Fuck sounds like my family They just want me to magic everything to woeking order I mean it usually does but its not like I know about it,0,cdpmqqr,1rp75t,TalesFromTechsupport,top_day,3,3
+Sknowingwolf,was probably worried youd find his porn,0,cdq134g,1rp75t,TalesFromTechsupport,top_day,1,1
+Banane,I wanted to make a joke about hearing problems but I was afraid youd laugh to your deafIm so sorry,15,cdpjcbr,1rp75t,TalesFromTechsupport,top_day,7,-8
+StrobingFlare,TEACHING the neighbourShe would be the one doing the learning,27,cdpixs9,1rp7bl,TalesFromTechsupport,top_day,103,76
+coptician,Windows  has many flaws but for a completely computer illiterate person its pretty perfectTheres a lot of stuff you dont have to explain with Windows  and what you do need to explain makes a lot more sense to someone like thatEmbrace itWin still wasnt a good idea,11,cdpima0,1rp7bl,TalesFromTechsupport,top_day,33,22
+donmanrobb,ChromeOS pretty much is an internet OSIll see myself out ,2,cdpklw0,1rp7bl,TalesFromTechsupport,top_day,16,14
+Harrstein,Well with chrome os and alikes the internet is basically your os,4,cdpi63p,1rp7bl,TalesFromTechsupport,top_day,14,10
+drdeadringer,gt Internet is an OS Not such a bad idea per seAm still a little off about a chromebook though,1,cdpka60,1rp7bl,TalesFromTechsupport,top_day,6,5
+OgdruJahad,gtTLDR Internet is an OSThis is coming in one form or the other sooner rather than later ,0,cdpnra6,1rp7bl,TalesFromTechsupport,top_day,3,3
+demyze,sLearningTeaching ,2,cdpiypq,1rp7bl,TalesFromTechsupport,top_day,4,2
+GetOffMyLawn,I had the misfortune of answering the helpdesk line one dayMe What operating system are you usingUser Office,0,cdpkf9v,1rp7bl,TalesFromTechsupport,top_day,3,3
+Qes,My  year old mother is terrible at learning new technology It took  lessons for her to get the knack of using a mouse My  year old little sister occasionally used my Moms computer This resulted in hours of my time fixing registry errors and removing viruses Windows XP with Norton I eventually put Ubuntu on her computer All she uses the machine for is email and helping my niece with homework Now I dont have to act as my Moms personal tech support all the time Unfortunately my Dad did just get a smart phone,0,cdpknq0,1rp7bl,TalesFromTechsupport,top_day,3,3
+aron,My elderly neighbors showed up on my doorstep last year with an arm full of phones and cables asking Can you help us get the pictures off these phones  It took about an hour of my time at their house to teach them  Last Christmas I was home alone and they brought me dinner every day for a week and all summer they bring me fresh veggies  You never know how a little patience on your end will pay off in the long run  Sometimes it doesnt but when it does it redeems a lot of techrelated headaches that come with helping others,0,cdpkwai,1rp7bl,TalesFromTechsupport,top_day,3,3
+showyerbewbs,Just to be COMPLETELY pedantic httpenwikipediaorgwikiInternetOSKind of like httpwwwredditcomrtalesfromtechsupportcommentsrpbllearningtheneighbourhowtouseacomputercdpklw,0,cdpkzow,1rp7bl,TalesFromTechsupport,top_day,3,3
+AramisAthosPorthos,Lets issue GB laptops with a bit OS,0,cdpo7m6,1rpf6h,TalesFromTechsupport,top_day,9,9
+Tomagathericon,Everything that ends in dll is a virus and needs to be carefully removed,0,cdplv3h,1rpf6h,TalesFromTechsupport,top_day,8,8
+sandiercy,All exe files must be deleted because they are executing files everywhere ,0,cdpmjka,1rpf6h,TalesFromTechsupport,top_day,5,5
+vincentkant,Clean up your win dir there is where the viruses are,0,cdpoyyf,1rpf6h,TalesFromTechsupport,top_day,3,3
+DefiniteMethAddict,gt Im glad its not a celeronOi E here I play warthunder and run a local network off this bad boy,0,cdq4n4m,1rpf6h,TalesFromTechsupport,top_day,2,2
+Broestofbrossir,Twist she keeps knocking the iPad off the table into the ground,4,cdpk6jv,1rphkz,TalesFromTechsupport,top_day,50,46
+Matvalicious,Its probably because there are illegal characters in her email address ,2,cdpka7i,1rphkz,TalesFromTechsupport,top_day,27,25
+MrTig,Sounds like she wants your to visit and using this to get you there,1,cdpjtyc,1rphkz,TalesFromTechsupport,top_day,14,13
+CharsCustomerService,Yesterday I was the family helpdesk after Thanksgiving dinner The only detail I got was my computer doesnt work Turns out the power cord for the monitor was slightly loose,0,cdpn41s,1rphkz,TalesFromTechsupport,top_day,5,5
+straks,I get that all the time with regular users in companysI get a mail with subject Program X acts wierd and thats it nothing else We even have a developer who does stuff like that he got mad when I created a bug report and assigned it to him with only a subject Webapp Y does strange stuffEven then he didnt get it,0,cdpksyw,1rphkz,TalesFromTechsupport,top_day,4,4
+jingerninja,My Mom does this kind of thing from her Blackberry all the time She means to text me and instead sends me an email with the contents of the SMS in the subject line and an empty body,0,cdpmytk,1rphkz,TalesFromTechsupport,top_day,4,4
+zurohki,I have a friend who just replies Format to anything without details,0,cdplkey,1rphkz,TalesFromTechsupport,top_day,2,2
+KermitDeFrawg,It could have been worseI was expecting you to stumble upon a folder full of FamilyMemberSexActingHorriblyInnapropriateFamilyMembermov ,35,cdploex,1rpisc,TalesFromTechsupport,top_day,197,162
+benzooo,My meth recipes,22,cdpl7jk,1rpisc,TalesFromTechsupport,top_day,100,78
+ScottyEsq,The first time someone Im helping gets mad is the last time I help them If you want to yell you have to pay ,2,cdplru5,1rpisc,TalesFromTechsupport,top_day,43,41
+TorturedSole,gt but refused to have itI hope thats the last time he got himself some free computer support,2,cdpm7ll,1rpisc,TalesFromTechsupport,top_day,34,32
+jackschitt,Reminds me of a coworker request I had one timeShe suspected that her then year old daughter was using the family computer to post pictures of herself on the internet And to be honest the girl in question was very attractive and quite stacked  She asked if I would come over to help see if there were any hidden pictures of her somewhere in the computer since she the mother was completely computerilliterate  But there was a catch  she wanted me to do it blindfolded  I was to do all the work and she would look over my shoulder  When I tried my best to explain how absurd her request was she replied Well then Ill just take it to Best Buy  At least theyll be professionals about itYepshe wouldnt trust me doing the work in her house under her supervision for free  But blindly handing over her PC to a bunch of  year olds at best buy where they can take it into a back room and do whatever the hell they want and spending  for the privilege  No problem  I never did find out the results,5,cdpql93,1rpisc,TalesFromTechsupport,top_day,37,32
+Mingusfan,I did a recuva file recovery on a computer once for this one person  I made her sit with me while I explained that the file names would not be what they were prerecovery she formatted her driveTheres something about webcams that make any girl aged  lose all common sense whatsoever,0,cdpo8gs,1rpisc,TalesFromTechsupport,top_day,14,14
+sekh,Total side topic Ive feigned ignorance of all things to do with televisions VCRs DVD players etc for years just so I dont have to support those as well In reality I can handle them though when I visit a friend who has like  different remotes it can take a bit to figure out which controls what,1,cdpnkp7,1rpisc,TalesFromTechsupport,top_day,13,12
+seraph,I cant even count the amount of times Ive heard this I had a female cousin come to me to fix her dead drive in a laptop which had been throwing SMART errors for mo come to find out drive failure imminent replace drive immediately press F to continue She texts me an hour later after dropping it off to not go through her photos which were what she wanted to recover saying there might be some stuff on there I didnt want to seeThis girl used to be  back in the day but exploded to lb after getting married and having kids Perhaps it was the whole forbidden fruit mentality but I couldnt not look for them after she said that I found them buried in one of the hundreds of IMGxxx folders her large self and her overweight hubby engaged in carnal pleasure After vomiting a bit in my mouth and thanking my scumbag brain I realized thats why you dont tell your techs about stuff like that Without that comment I would have restored all those genericallylabeled folders without a second thought,3,cdpwhgj,1rpisc,TalesFromTechsupport,top_day,4,1
+pjhh,gt rouge DHCP serversDid you try a different color to see if they were any better,1,cdpkdkr,1rpivn,TalesFromTechsupport,top_day,42,41
+smores,gtit would be safe and that they would have local admin so they can install software and they would not be able to sign in on one another computersOh dear Dis gon b gudhttpiimgurcomMXUgCqgifgtThe alarm bells rung and a few scary days laterIt took them several days to fix an access violation of that magnitude Oy oy our coffee cannot repel thatSounds about the time when you document everything go to the principal and tell him either the AD goes or you stop fixing anything related to it Also since this sounds like something that will blow up at some point why not start documenting the security problems possible problems and hours spent on it with a weekly mail to your bossprincipal Youll want to point to that when shit hits the fanAnyway I feel for you bro Have a cookiehttpmediatumblrcomtumblrkzrvjvxqbuesojpg,2,cdpjvz6,1rpivn,TalesFromTechsupport,top_day,18,16
+IsilZha,AD was setup improperly Im guessing a combination of no use of OUs security groups or GPO s beyond the default  Im guessing whoever set it up just left all user accounts student and teacher in the default user container likely did the same for the computer accounts and then it sounds like they just put the Users or Authenticated Users groups with admin rights into the default GPO  applying it to all machines,3,cdpm3io,1rpivn,TalesFromTechsupport,top_day,8,5
+jvnatter,Sounds like a certain charter school that aint around anymore,0,cdpnfcc,1rpivn,TalesFromTechsupport,top_day,1,1
+Vorteth,Okay I am not that skilled with AD but this just bugs meI have a home server for testing go Dreamspark and MSDN and implemented Server  with AD DC Now I made a copy of the initial Admin for my main account with a backup Admin if I ever forget the passwordWhat confuses me about this story is how could you ever give someone ACCIDENTAL domain admin access It is VERY clear cut on what each access group doesGranted I havent played with GPO just yet will be doing that for my MCSA training but it seems like a giant fuck up that should be easily found in  minute testingOr am I misunderstandingoversimplifying,0,cdpnrcg,1rpivn,TalesFromTechsupport,top_day,1,1
+akureiokami,gtgt school that specializes in ITgtgt Nobody in house knows nixRrrrright,0,cdpvsth,1rpivn,TalesFromTechsupport,top_day,2,2
+UltraChip,I feel your pain young techie You will have many similar stories in the years ahead One point of interest though If your sister is serious about her photo editing then it actually does make sense for her to have an i Image rendering is very intensive on RAM and CPU resources so the more power you can get along those lines the better off you are Then again if all shes doing is taking out red eye and brightening up dark shots then you may have a pointI agree with you that the TB hard drive is unneccesary though If she was editing VIDEOS then TB would make sense but not if shes just diddling around with photos As for Windows  I agree with you Its a pain in the ass to teach new users what to do with it But in fairness its extremely hard to find a prebuilt computer with Windows  anymore so she was probably going to end up with Win any way ,0,cdpnmrh,1rpx0v,TalesFromTechsupport,top_day,12,12
+Broestofbrossir,Ive never really understood the W hate I actually like metro I lets me keep my desktop nice and clean and rather than digging through All Programs everything that I use somewhat regularly is right there on the start screenThe only problem I have is with fullscreen apps and you dont have to use those,0,cdptuh4,1rpx0v,TalesFromTechsupport,top_day,4,4
+AlanSmithee,Unfortunately for your sister you dont know as much as you think But thats how we learn Best thing to do is research these things beforehand,0,cdq2xpq,1rpx0v,TalesFromTechsupport,top_day,4,4
+AramisAthosPorthos,Expected Jack Nicholson jokes,0,cdpo8ie,1rpx0v,TalesFromTechsupport,top_day,1,1
+Osiris,Tell him that youre going to put diesel into one of his gas engines and you made sure that could work by putting in a different fuel filter,4,cdpxuzf,1rq76x,TalesFromTechsupport,top_day,20,16
+ender,Was he charged for a replacement printer,2,cdpqhfb,1rq76x,TalesFromTechsupport,top_day,12,10
+jimicus,Please tell me this is a joke,0,cdpusin,1rq76x,TalesFromTechsupport,top_day,6,6
+Arizth,My father does almost the exact same fucking thingJust refuses to understand that machines with circuit boards are inherently different from machines with spinning belts ,0,cdpvif6,1rq76x,TalesFromTechsupport,top_day,3,3
+Tomagathericon,What the actual fuck ,0,cdq4vqy,1rq76x,TalesFromTechsupport,top_day,1,1
