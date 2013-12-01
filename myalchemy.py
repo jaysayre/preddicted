@@ -57,20 +57,27 @@ class MyAlchemy:
             return "TextGetTextSentiment", 4
         elif 'entities' in choice:
             return "TextGetRankedNamedEntities", 5
+	elif 'urlkeywords' in choice:
+	    return "URLGetRankedKeywords", 6
         else:
             return None
         
     
-    def run_method(self, comment, whichtoget, otherparams=None):
-	global alchemybase        
-	self.params['text'] = comment
-        form = urllib.urlencode(self.params)
+    def run_method(self, comment, whichtoget, otherparams=None):       
+	
         method, num = self.__look_at(whichtoget)
-        if method != None:
-            keywordsurl = "http://access.alchemyapi.com/calls/text/" + method + "?" + form
-        else:
-            print "Couldn't recognize method"
+        if method == None:
+	    print "Couldn't recognize method"
             pass
+        elif method == "URLGetRankedKeywords":
+	    self.params['url'] = comment
+            form = urllib.urlencode(self.params)
+	    keywordsurl = "http://access.alchemyapi.com/calls/url/" + method + "?" + form
+	    print keywordsurl
+        else:
+	    self.params['text'] = comment
+            form = urllib.urlencode(self.params)
+            keywordsurl = "http://access.alchemyapi.com/calls/text/" + method + "?" + form
         #If there happens to be other parameters
         if otherparams != None:
             otherform = urllib.urlencode(postparams)
@@ -86,7 +93,8 @@ class MyAlchemy:
             return self.text_concepts()
         elif num == 4:
             return self.text_sentiment()
-        else:
+        elif num == 5:
             return self.text_entities()
-            
+        else:
+	    return self.text_keywords()
 
