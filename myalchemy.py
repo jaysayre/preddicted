@@ -47,41 +47,39 @@ class MyAlchemy:
         return returnlist
             
     def __look_at(self, choice):
-        if 'keywords' in choice:
-            return "TextGetRankedKeywords", 1
+        if 'keywords' == choice:
+            return "text/TextGetRankedKeywords", 1
         elif 'category' in choice:
-            return "TextGetCategory", 2
+            return "text/TextGetCategory", 2
         elif 'concepts' in choice:
-            return "TextGetRankedConcepts", 3
+            return "text/TextGetRankedConcepts", 3
         elif 'sentiment' in choice:
-            return "TextGetTextSentiment", 4
+            return "text/TextGetTextSentiment", 4
         elif 'entities' in choice:
-            return "TextGetRankedNamedEntities", 5
-	elif 'urlkeywords' in choice:
-	    return "URLGetRankedKeywords", 6
+            return "text/TextGetRankedNamedEntities", 5
+        elif 'urlkeywords' == choice:
+            return "url/URLGetRankedKeywords", 6
         else:
             return None
         
     
     def run_method(self, comment, whichtoget, otherparams=None):       
-	
         method, num = self.__look_at(whichtoget)
-        if method == None:
-	    print "Couldn't recognize method"
-            pass
-        elif method == "URLGetRankedKeywords":
-	    self.params['url'] = comment
-            form = urllib.urlencode(self.params)
-	    keywordsurl = "http://access.alchemyapi.com/calls/url/" + method + "?" + form
-	    print keywordsurl
+        if num >= 6:
+            self.params['url'] = comment
         else:
-	    self.params['text'] = comment
-            form = urllib.urlencode(self.params)
-            keywordsurl = "http://access.alchemyapi.com/calls/text/" + method + "?" + form
+            self.params['text'] = comment
+        form = urllib.urlencode(self.params)
+        if method != None:
+            keywordsurl = "http://access.alchemyapi.com/calls/" + method + "?" + form
+        else:
+            print "Couldn't recognize method"
+            pass
+        
         #If there happens to be other parameters
         if otherparams != None:
-            otherform = urllib.urlencode(postparams)
-            keywordsurl = alchemybase + whichtoget + "?" + form + otherform 
+            otherform = urllib.urlencode(otherparams)
+            keywordsurl = "http://access.alchemyapi.com/calls/" + method + "?" + form + otherform 
         
         self.data = self.get_json(keywordsurl)
         
@@ -96,5 +94,6 @@ class MyAlchemy:
         elif num == 5:
             return self.text_entities()
         else:
-	    return self.text_keywords()
+            return self.text_keywords()
+
 
