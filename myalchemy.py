@@ -6,8 +6,6 @@ A class written for calling the Alchemy API
 import urllib
 import urllib2
 import json
-import time
-
 
 class MyAlchemy:
     '''
@@ -18,7 +16,6 @@ class MyAlchemy:
     
     def get_json(self, url):
 	jsonrsp = urllib2.urlopen(url)
-	time.sleep(1)
 	data = json.load(jsonrsp)
 	return data
 
