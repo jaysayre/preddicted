@@ -1,0 +1,17 @@
+/* layout.css */
+
+html {
+  max-width: 100%;
+}
+body {
+  background-color:#fff;
+  height:100%;
+  width:100%;
+  max-width: 100%;
+  padding:0;
+  margin:0;
+  background-image: url("./images/SplashBackground.jpg");
+  background-size:cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}

@@ -13,7 +13,9 @@ build
 *.egg-info
 *~
 *.bak
+venv
 *.pyc
+staticfiles
 .ipynb_checkpoints
 .tox
 
