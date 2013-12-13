@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Preddict It! By Serguei, Jay, and Sebastian</title>
+    {% load staticfiles %}
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'visualization/css/bootstrap.css' %}" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link rel="stylesheet" type="text/css" href="{% static 'visualization/css/simple-sidebar.css' %}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/visualization/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+
+  </head>
+
+  <body>
+  
+    <div id="wrapper">
+      
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <img id = "logo" src="http://www.redditstatic.com/about/assets/reddit-alien.png">
+          <li class="sidebar-brand"><a href="/">Preddict It!</a></li>
+          <li><a href="collect">Collecting Data</a></li>
+          <li><a href="visualize">Visualizing the Data</a></li>
+          <li><a href="build">Building the Model</a></li>
+          <li><a href="findings">Findings</a></li>
+          <li><a href="about">About</a></li>
+        </ul>
+      </div>
+           <!-- Page content -->
+      <div id="page-content-wrapper">
+        <div class="content-header">
+          <div>
+
+          </div>
+          <h1>
+            <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
+            Visualizing the Data
+          </h1>
+        </div>
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">Our data set contains 44,000 posts posted by 20,000 authors. This means that the average successful user has approximately two submissions in the lists we investigate. The following visualization shows what subreddits have more active and successful users with multiple posts. It illustrates the fact that subreddits that tell stories like <a href=" http://reddit.com/r/nosleep">“nosleep”</a> generally have an succesful user base whereas larger subreddits seem to be dominated by randomness and being experienced with posting there does not indicate success.</p>
+              <img class="well" src="http://imgur.com/3J4aawi.png?1"/></a></a>
+              <p class="lead">Another thing which is interesting to look at is how the posting date relates to the score. You can clearly see how the highest score can be reached within no time. one of the posts with a score of 4000 only took 6 days to get there. On the whole, it seems that popular posts become so quickly, and therefore, it doesn't happen often that an obscure post on Reddit will remain obscure for months and then suddenly become popular.</p>
+              <img class="well" src="http://imgur.com/sGYEZuP.png?1"/></a></a>
+              <p class="well">Did you ever wonder whether you should put text in a reddit post? Shouldn’t the question alone be sufficient enough for people to grasp what you are asking? </p>
+              <p class="lead">Investigating this, the answer is yes! You can see in red all posts that have no additional text and in blue the ones with text. The ones without clearly get a better score. What does this mean for you? It means that you should formulate your posts such that people can actually understand what you are asking them.</p>
+              <img class="well"src="http://i.imgur.com/SQzjtWh.png?1"/></a>
+              <p class="well">If you would like to see more visualizations, please take a look at our processbook.</p>
+            </div>
+          </div>
+        </div>

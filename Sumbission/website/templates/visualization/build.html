@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Preddict It! By Serguei, Jay, and Sebastian</title>
+    {% load staticfiles %}
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'visualization/css/bootstrap.css' %}" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link rel="stylesheet" type="text/css" href="{% static 'visualization/css/simple-sidebar.css' %}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/visualization/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+
+  </head>
+
+  <body>
+  
+    <div id="wrapper">
+      
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <img id = "logo" src="http://www.redditstatic.com/about/assets/reddit-alien.png">
+          <li class="sidebar-brand"><a href="/">Preddict It!</a></li>
+          <li><a href="collect">Collecting Data</a></li>
+          <li><a href="visualize">Visualizing the Data</a></li>
+          <li><a href="build">Building the Model</a></li>
+          <li><a href="findings">Findings</a></li>
+          <li><a href="about">About the project</a></li>
+          <li><a href="about_us">About us</a></li>
+        </ul>
+      </div>
+           <!-- Page content -->
+      <div id="page-content-wrapper">
+        <div class="content-header">
+          <div>
+
+          </div>
+          <h1>
+            <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
+            Building the Model
+          </h1>
+        </div>
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">
+              In order to build our first "real" model we wanted to compute upvotes/downvotes in order to try to generate a measurement for how controversial a post is. This was not the most useful approach because <a href="http://amix.dk/blog/post/19588">Reddit deliberately messes with the number of up and downvotes they display</a>. Then we tried to use simple models to test different approaches to predict scores. There were some severe issues with our vectorizer. The training accuracy was very high, because we were not doing a split of the training and testing data which we immediately tried. We achieved a 0.75 accuracy which at this stage of the project was a fantastic start.</p> 
+
+              <h2>
+              Issues with Binning
+              </h2>
+
+              <p class="lead">Unfortunately, the reason for this very high accuracy both in the training and the testing was the way the binning is designed. First, we tried doing a category split but this yielded a Test accuracy directly inverse to the number of categories (.5 for 2 categories, .25 for 4, etc). We kept the category split code out of interest and decided to bin instead on the mean score. If a post is above the mean in its category, it is considered "successful" and otherwise categorized as "unpopular". This yields this great result but unfortunately is a result of bin dimension mismatch. In cross-validating the top posts of the week against the top posts of all time, we were not considering the incredible skew of top weekly posts. There will only be a few with very high scores which will pull the mean towards them and put them as the only few posts that are above the average. Since over 90% of the posts are subsequently below the mean, that bin is enormous and validates itself by its size, disregarding any mistakes potentially caused in the small "popular" bin. Next, we tried to implement a Naive Bayes on the entire data set. This classifier served as our baseline to improve upon. </p>
+
+              <h2>
+              A better bag-of-Words
+              </h2>
+
+              <p class="lead">First, we needed to remove duplicates across types for each subreddit, which by visual analysis, seemed to be quite prominent. We then constructed a "bag-of-words". Each word that occurs in any title will get added to a list of occurring words. For each occurring word, the algorithm keeps track of how often this word occurred. Using this you can calculate whether a word predicts success and run a regression on it.</p>
+
+              <p class="lead">Again, we didn’t have a very promising result. Our model was over fitting the data by a lot while having an accuracy on the training set of only 76%. This meant that we had to improve our model by a lot in order to get an accuracy desired for our project. Clearly, we had to explore some other options. Maybe the reason for the low score was because of the wide range of possible scores a post can have. In order to reduce this we tried to bin the data again, this time into 5 equally sized bins in order to decrease the sparsity of the data. This was a lot better! Using bins was better than using the scores themselves, which makes sense, because there is simply less space for error. However, these accuracies in the 50% range were still too low. We cross-validated on the bin size to see if this actually affects the accuracy and stored the best binning method for later use. The more bins we had, the less accurate the classifier becomes on both the training and test set. This seems logical, and one good thing to observe here was that as we increase/decrease the number of bins, the classifier doesn't start over fitting / under fitting more, showing that there was predictive value in using this approach. Therefore, this baseline MCNB is what we have to build upon. </p>
+
+              <h2>
+              Using n-grams and TFIDF
+              </h2>
+
+              <p class="lead">Interestingly, stemming the titles using the nlkt package, meaning we take only the roots of the words and don't consider prefixes or suffixes, didn’t seem to have much of an effect on the results. This reaffirms the validity of the original test in that it is robust even if we remove extraneous portions of each word, so stemming wasn’t necessary in future. We then tried an n_gram analysis in order to improve our model. It seemed like n_grams really improved the model to an acceptable level of <b>61%</b> accuracy! With this breakthrough we used this as the new basis for further improvements. Trying the same thing using a TFIDF (Term Frequency Inverse Document Frequency) matrix which is normally a <a href="http://datumengineering.wordpress.com/2013/09/26/python-scikit-learn-to-simplify-machine-learning-bag-of-words-to-tf-idf/">slight improvement over the normal</a> vectorizer yielded a very small improvement (and in some trials it is in fact lower than the n-grams analysis which makes it much less consistent). </p>
+
+              <p class="lead">Splitting by subreddit and then vectorizing was our next attempt to improve the model, so we tried this next. The splitting by subreddit did not improve our model. In fact, the individual models seemed somehow worse than the general model in accuracy. This is very odd as it seemed to suggest that post prediction performs better when cross-validated across all of Reddit (or in our representation, across all subreddits we studied) rather than when cross-checked against the specific subreddit to which it belongs. All of our previous methods looked at one specific title and its parts. Another way to look at it is to compare titles. We wanted to analyze titles and find the ones closest to the one we investigate. Maybe there is a correlation between similar titles. </p>
+
+              <h2>
+              Trying a K-Nearest Implementation
+              </h2>
+
+              <p class="lead">A popular method to compute the score of similarity for texts is the <a href="http://pyevolve.sourceforge.net/wordpress/?p=2497">cosine similarity</a>. We first computed the similarity between each pair of posts and then run a method that computes the k nearest neighbors of a title. This gave us several values to look at to see whether there exists a correlation between the score and them. First the score of the closest title, then the max, min and mean of the k nearest ones. The result clearly and disappointingly showed that the correlation is too small (less than 5 %) to consider it for our model. This also means that similar sounding titles have nothing to do with the success of the post. </p>
+
+              <p class="lead">Our next idea was that we could potentially generate Trigrams and Bigrams in titles and start a search query on reddit with it. The result page will show several posts that we could scrape using the API. We then could store the scores of the search results and try to look into them. Unfortunately neither of the following methods worked there:</p>
+
+              <ul class="well">
+                <li>looking at the mean of the scores
+                <li>looking at the std of the scores
+                <li>normalizing the scores based on the subreddit and type
+              </ul>
+
+              <h2>
+              Other SciKit Learn Algorithms - Success! 
+              </h2>
+
+              <p class="lead">We went back to our first approach then. We could calculate the probability of a post being successful for each subreddit and add it to our dataframe in order to use the data later. We used the same methods with the n_grams we used in our most successful model. Using that we went through the sklearn library and tested the various regression models in there.We started with the <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeClassifier.html">Ridge classifier</a>. We then started start using Alchemy. We wanted to use the keywords function from alchemy in order to scrape the keywords from each title.</p>
+
+              <p class="lead">As opposed to the first Ridge classifier this one actually beat our baseline in all regards! In the nosleep subreddit we got an accuracy of 81%! Trying the next regression – <a href="http://scikit-learn.org/stable/modules/linear_model.html#perceptron">Perceptron</a> yielded even better results. The accuracy went up to 85%!The next classifier we used was the <a href="http://scikit-learn.org/stable/modules/linear_model.html#passive-aggressive-algorithms">Passive Aggressive CLassifier</a>. This algorithm had a slightly worse max score (for the nosleep subreddit) but it seemed that overall the scores were better, We also looked at a <a href="http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">K-Nearest Neighbors</a> implementation but due to memory constraints it causes a lot of problems and it's scores were lower than all of the other three methods. That’s why we settled on the passive aggressive algorithm. The one that can be found is the one with 61% accuracy due to memory constraints on the more complex ones. Feel free to test them in our process book!</p>
+            </div>
+          </div>
+        </div>
