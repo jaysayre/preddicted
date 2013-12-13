@@ -15,6 +15,12 @@
   transition: all 0.4s ease 0s;
 }
 
+#video {
+  position:absolute;
+  width:58%;
+  height:80%;
+}
+
 #logo {
   position: relative;
   padding-top: 3%;
