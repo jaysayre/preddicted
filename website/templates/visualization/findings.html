@@ -48,4 +48,95 @@
         <div class="page-content inset">
           <div class="row">
             <div class="col-md-12">
-              <p class="lead"><a href='http://nbviewer.ipython.org/github/jaysayre/intelligent-dolphins/blob/master/ProcessBook.ipynb'>Please Visit our Process Book to see details of our Findings and Conclusions</a>"
+
+<h2>
+Discussion of Findings
+</h2>
+
+<p class="lead">
+The purpose of this project was to study the posts on the popular link and discussion sharing website Reddit, and try to utilize some advanced Data Science techniques to construct a statistical model to represent the posts based on a variety of metrics, with the potential of ultimately creating a predictor that would yield a score based on words in a title. Of course, Reddit titles aren’t usually very long and so there are few words to actually base predictions upon – however, with a powerful enough predictor constructed from all components of a post, including the comments and selftext, we hoped to be able to construct something viable.</p>
+
+<p class="lead">
+We began by learning about our data set. Reddit has hundreds of thousands of subreddits and we decided that for the purposes of our project, it would be far more interesting to explore several text-based subreddits that you see listed here. Using the Reddit API, we mined all of the data for these subreddits and made sure to clean our post titles of digits and ensure that our scores were only numerical. Though there were few of these weird glitches, they caused us many problems and so effectively cleaning the data set was crucial to our success in this project. </p>
+
+<p class="lead">
+After merging all of our data, we considered a useful text analysis library called Alchemy, which came in quite useful near the end of the project. For each post, we downloaded the top 200 (or less) comments, and merged them, and then fed them into Alchemy to hopefully produce keywords out of our data. Although this may be biased towards posts with more keywords, this method was employed to hopefully find the elements of post which users were most likely to comment upon, serving as a proxy for the most important elements of a post. </p>
+
+<p class="lead">
+Next, we made some plots comparing such things as number of comments and score, link karma and score, and post date and score. Unfortunately, as can be seen from the graph in our visualization section, it was clear from the outset that though these had some small trends, they would not be good enough to create predictions, considering parsimony. Furthermore, things like number of comments is unlikely to have much predictive ability, even though it might be correlated with score (and probably is). Thus, we turned to performing some Multinomial Classification in the hope that a Naïve Bayesian Classifier would work out. We experimented with many different things – minimizing the number of bins to 2, stemming our words, removing very low outliers using the min df parameter, and attempting many different algorithms. Moreover, we used n-grams, which attempts to build on the assumption of independence of words from problem set 3. It does this through going through permutations of a number n of words in the sentence one hopes to analyze, hence “n”-grams. </p>
+
+<h2>
+How could we improve this model?
+</h2>
+
+<p class="lead">
+Well, as is often said in statistical reports, more data would have been useful in this process. Our data was certainly biased by the limitations on categories Reddit’s API forced us into. A more comprehensive approach would have been to analyze all of the posts in a given subreddit over time, tracking each post’s score in a time series format. Ultimately, though, given size and resource constraints, we still managed to figure out some interesting conclusions from looking at our limited data set. </p>
+
+<h2>
+Conclusions
+</h2>
+
+<ul class="well">
+
+    <li> In practice, for many subreddits, the hot and new sorting algorithms resulted in similar posts
+    <li> It doesn’t seem to take very long for a given post to reach peak popularity (under 72 hours), which was surprising, and we were expecting that time after submission would have a larger effect than it actually does. Given that we are just using 2 bins, the amount of time needed for a post to be classified accurately (as in, in the right bin), is not as much of a concern as initially thought
+    <li> Moreover, running a simple linear regression model between days after time submitted and post score explained little of the variance in post scores
+    <li> The popularity of a user appears to have little effect upon whether or not a post will be popular. Although this may not hold true for users designated as distinguished (mainly celebrities or moderators), since we have filtered these out of our data set, the regression between link karma or karma and score is statistically significant but small
+    <li> Various metrics we tried to calculate how controversial a post was were not particularly fruitful as Reddit more or less fuzzes the number of upvotes/downvotes to prevent spammers, and furthermore they had low predictive ability
+
+    <li> Using term frequency inverse document frequency (TF-IDF), which counts word frequencies for every post and discounting words that appear in many posts (like “the”, “a”, etc.), did not increase accuracy as much as we had expected.
+
+    <li> One diversion we went down was to examine each title, remove stop words (commonly used words like “the”, “an”, that have little meaning), break it into n-grams (or permutations of “n” words in the title), and then make an api search request on that n-gram. After making that search request within the subreddit the title came from, we looked at the top 100 (or less) search results for each n-gram, and then took the mean and standard deviation for all search results for all of the n-grams of a title.
+
+    <li> We then tried both a simple linear regression model using the only the mean of all search results plotted against post score and a cdf function similar to the one implemented in problem set 2 to predict how likely a post would be above a given mean, similar to the binning method from before. Unfortunately, both methods turned out to be statistically significant but of low predictive value.
+
+    <li> One important aspect to note is the drastic difference between cross-validation against the whole data set compared to testing accuracy for a post in a specific subreddit. Initially, we had planned to have a dropdown selector on the website to choose the subreddit against which to validate, but upon discovering that the overall classifier was so much more effective, we abandoned the idea.
+</ul>
+
+<h2>
+A little bit about the classifiers that went into building our final model:
+</h2>
+
+<h2>
+RidgeClassifer
+</h2>
+
+<p class="lead">
+Sometimes the best linear unbiased estimator is not always the best estimator for the beta’s in our bag of words model, because given the bias-variance tradeoff, we would like an estimator which minimizes variance from a standard OLS model at the expense of bias. In ridge regression, we minimize the sum of the squared residuals, which is what we would normally do in OLS, in addition to a term proportional to the weighted sum of the squared parameters. As said earlier, this loses the quality of estimating the true parameters without bias, but in doing so minimizes variance, which can increase the accuracy of our model considerably. In a Bayesian framework, then, our prior might be the general maximum likelihood estimate multiplied by our given prior, say that the noise is a Gaussian with mean zero. With the ridge regression framework, the posterior mode, which is our most likely value, equals the ridge parameter estimate. This framework is used to classify the bag of words into the various bins. </p>
+
+<h2>
+Perceptron
+</h2>
+
+<p class="lead">
+Perceptron is an algorithm for supervised classification that sorts an input into one of a number of bins. It is a linear classifier that combines a set of weights with our calculated vector in order to describe the keywords of the title using a rule that dynamically updates the weights. looking at elements in the training set one by one. Perceptrons most important properties are that it does not require a set learning rate, that it is not regularized and that it only updates its model when it makes mistakes. Due to the last characteristic Perceptron is very fast with the tradeoff that the resulting model might be sparser than that of other algorithms. </p>
+
+<h2>
+Passive-Aggressive
+</h2>
+
+<p class="lead">
+The Passive-Aggressive Classifier we implemented using the sklearn library was, on average, the most effective in accurately predicting posts on subreddits. Much like the MultinomialNB, the the Passive Aggressive Classifier is a binary classifier that allowed us to construct a training model from which we could extrapolate to a prediction algorithm. Like the Perceptron we used previously, this classifier is a set of algorithms useful for large-scale learning, none of which require a learning rate parameter. Unlike the Perceptron, however, the these algorithms require a regularization parameter, for which we used the default of 1.0. It was perhaps this regularization that improved our regularization that improved the regression of our model to such a degree that it outperformed all other classifiers we attempted. </p>
+
+<h2>
+**K-Nearest **
+</h2>
+
+<p class="lead">
+The final classifier we tried was the K-Nearest Classifier. This set of algorithms simply computes the k nearest neighbors of every post, and utilizes the resulting model to reduce the sparsity of the dataset and to attempt to train the classifier based upon this. However, due to the massive amounts of calculation required to compute the neighbors, this classifier was unfeasible to run and consistently gave us a memory error when applied to the alchemy keywords. Considering the lack of effectiveness of our own k-nearest implementation using Cosine Similarity, and considering that this classifier did not improve particularly upon the regular, non-Alchemized dataset, it was safe to say that this classifier would not ultimately outperform the Passive-Aggressive one, so we left that component out of the final Process Book to avoid unnecessary memory overloads. </p>
+
+<p class="lead">
+There were considerable differences between these classifiers, and the differences between them should not be overlooked, even though each one was applied to the same bag-of-words model. </p>
+
+<p class="lead">
+Finally, after much testing and cross-validation, we discovered a combination of parsing out keywords from our text using Alchemy and using the Perceptron Classifier on these keywords and the post scores. This turned out to be far more effective than any of our other methods, consistently having near-perfect testing accuracies and greater than 65% training accuracies. From this model, we constructed a regression model – one that provided us with a powerful linear equation. Now, we could use our CLF to calculate the probability of a post being successful and using regression, predict the approximate score the post would achieve upon stabilization with about 20% accuracy. If you would like to experiment with this predictor, please visit our website and try it out! </p>
+
+<p class="lead">
+Ultimately, this project revealed to us what we suspected – that although a powerful classifier can serve as a somewhat good predictor, due to the nature of Reddit and the randomness with which posts become popular, it is impossible to pinpoint exact words with ignite this popularity. Our challenges through the duration of this project and our ultimately low R squared values for the regression model suggest that in spite of all of our textual analysis, the degree of randomness in Reddit is much too high to have any valuable predictive capabilities. Still, it’s an interesting concept and with further research and more powerful technical capabilities to analyze massive datasets perhaps it would be possible to create a far more reliable prediction model. </p>
+
+<p class="lead"><a href='http://nbviewer.ipython.org/github/jaysayre/intelligent-dolphins/blob/master/ProcessBook.ipynb'>Please Visit our Process Book to see details of our Findings and Conclusions</a></p>
+</div>
+</div>
+</div>
+
+
